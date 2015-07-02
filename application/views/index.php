@@ -14,7 +14,8 @@
 	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
 	   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-	
+		<link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+
 	<!-- Start WOWSlider.com HEAD section -->
 	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
 	<script type="text/javascript" src="engine1/jquery.js"></script>
@@ -79,13 +80,17 @@ $(document).ready(function() {
 </header>	
 <!--HEADER END-->   
 
-<!-- SLIDES START -->   	
+<!-- SLIDES START -->   
 	<div id="slide1">
 		<div class="container">
 			<img class="section logo img-responsive" alt="Responsive image" src="assets/img/logo.png">
 	        <img class="section tagline img-responsive" alt="Responsive image" src="assets/img/tagline.png">
 		</div> 
     </div> 
+
+    <div id="smallslide">
+		<h3>Sponsored by:</h3>
+	</div>
 
 	<div id="slide2">
 	    <div class="container slide">

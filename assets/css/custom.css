@@ -107,7 +107,7 @@ img.navigasi {
 }*/
 
 body {
-  font-family:  'Raleway';
+  font-family:  'Maven Pro';
   color: #ddd;
 }
 
@@ -284,12 +284,11 @@ button {
 .btn {
   border-radius: 0;
   border: 0px;
-  background-color: #FBB829;
 }
 
 .btn:hover,
 .btn:focus {
-  background-color: #FB8107;
+  
   text-decoration: none;
 }
 
