@@ -107,7 +107,7 @@ img.navigasi {
 }*/
 
 body {
-  font-family:  'Maven Pro';
+  font-family:  'Lato';
   color: #ddd;
 }
 
@@ -239,9 +239,9 @@ img.shadow {
 }
 
 img.giant {
-  max-height: 100vh;
+  max-height: 700px;
   float: right;
-  margin: auto;
+  margin: 0;
 }
 
 .morenews {
@@ -292,9 +292,6 @@ button {
   text-decoration: none;
 }
 
-a {
-  color: #FB8107
-}
 
 .container.slide {
   padding: 150px 0;

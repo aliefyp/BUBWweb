@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-       <title>Creating a Simple Parallax Scrolling Website</title>
-       <link rel="stylesheet" href="assets/css/bootstrap.css"/>
-       <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-       <link rel="stylesheet" href="assets/css/style.css"/>
-       <link rel="stylesheet" href="assets/css/custom.css"/>
-	   <script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
-       <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
-	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
-	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
-	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
-	   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Creating a Simple Parallax Scrolling Website</title>
+		<!--Bootstrap-->
+		<link rel="stylesheet" href="assets/css/bootstrap.css"/>
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+		<!--Hover Effect-->
+
+		<link rel="stylesheet" type="text/css" href="assets/hover/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="assets/hover/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="assets/hover/css/set2.css" />
+		<link rel="stylesheet" type="text/css" href="assets/hover/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+		<!--Parallax-->
+		<link rel="stylesheet" href="assets/css/style.css"/>
+		<!--Custom-->
+		<link rel="stylesheet" href="assets/css/custom.css"/>
+		<!--JQuery-->
+		<script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
+		<!--Fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 
 	<!-- Start WOWSlider.com HEAD section -->
 	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
@@ -120,8 +133,8 @@ $(document).ready(function() {
 	    </div>	    
     </div> 
 
-    <div id="slide2">
-	    <div id="slide2ext" class="container slide" style="padding-top:100px">
+    <div id="slide2" style="height:100vh">
+	    <div id="slide2ext" class="container slide" style="padding-top:100px;">
 	      <div class="row">
 	            <div class="col-md-6 col-sm-6">
 	              <div class="page-header">
@@ -173,12 +186,31 @@ $(document).ready(function() {
 	
 	
 	<div id="slide4">
-		<div class="content">
-              <div class="quotes_container">
-		    <h3 class="quotes">“Christmas doesn't come from a store, maybe Christmas perhaps means a little bit more....” </h3>
-		  <img src="assets/img/dr-seuss.png" align="left"/> <h4 class="author_name_gray">Dr. Seuss </h4>
-		</div> 
-		</div> 
+		<h2>Winston</h2>
+		<div class="grid">
+			<figure class="effect-winston">
+				<img src="assets/hover/img/30.jpg" alt="img30"/>
+				<figcaption>
+					<h2>Jolly <span>Winston</span></h2>
+					<p>
+						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
+					</p>
+				</figcaption>			
+			</figure>
+			<figure class="effect-winston">
+				<img src="assets/hover/img/1.jpg" alt="img01"/>
+				<figcaption>
+					<h2>Jolly <span>Winston</span></h2>
+					<p>
+						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
+					</p>
+				</figcaption>			
+			</figure>
+		</div>
     </div> 
 	
 	
@@ -194,7 +226,12 @@ $(document).ready(function() {
 
     </div> 
 	
-<!----- SLIDES END --->
-
+<!-- SLIDES END -->
+<script>
+			// For Demo purposes only (show hover effect on mobile devices)
+			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
+				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+			} );
+		</script>
 </body>
 </html>
