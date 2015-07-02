@@ -146,15 +146,15 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide2{
 	background: url('../img/symphony.png');
-	color: #333333;
-	height: 200vh;
+	color: #999;
+	height: 100vh;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
 }
 
 #slide3{
-	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/img5.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 600px;
 	padding: 170px 0 0 0;	
@@ -175,6 +175,10 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	padding: 250px 0;
 	color: #fff;
 	background-size: cover;
+}
+
+#slide1, #slide2, #slide3, #slide4, #slide5 {
+	height: 100vh
 }
 
 

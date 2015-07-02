@@ -14,6 +14,14 @@
 	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
 	   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	
+	<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+
+
 	<script>
    
 <!----- JQUERY FOR SLIDING NAVIGATION --->   
@@ -60,9 +68,9 @@ $(document).ready(function() {
 
 <nav id="nav">
 	<ul>
-		<li><a href="#slide1" class="active" title="Next Section" >Slide 1</a></li>
-		<li><a href="#slide2" title="Next Section">Slide 2</a></li>
-		<li><a href="#slide3" title="Next Section">Slide 3</a></li>
+		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#slide2" title="Next Section">Slide2</a></li>
+		<li><a href="#slide2ext" title="Next Section">Slide3</a></li>
 		<li><a  href="#slide4" title="Next Section">Slide 4</a></li>
 		<li><a href="#slide5" title="Next Section">Slide 5</a></li>
 	</ul>
@@ -104,10 +112,13 @@ $(document).ready(function() {
 	          <a href="http://www.bubw.org" class="btn btn-info btn-lg morenews" role="button" target="_blank">MORE NEWS!</a>
 	        </div>
 	      </div>
-	    </div>
-	    <div class="container slide">
-	    	<div class="row">
-	            <div class="col-md-6 col-sm-6" style="padding:0 0 30px 0; ">
+	    </div>	    
+    </div> 
+
+    <div id="slide2">
+	    <div id="slide2ext" class="container slide" style="padding-top:100px">
+	      <div class="row">
+	            <div class="col-md-6 col-sm-6">
 	              <div class="page-header">
 	                <h1 style="font-size:60px;">H E A D L I N E</h1>
 	              </div>
@@ -121,17 +132,38 @@ $(document).ready(function() {
 	              <img src="assets/img/dance.png" class="img-responsive giant" alt="Responsive image">
 	            </div>
 	          </div>
-	    </div>
+	    </div>	    
     </div> 
 	
 	
    <div id="slide3">
-		<div class="content">
-			   <div class="quotes_container">
-		       <h3 class="quotes">“I truly believe that if we keep telling the Christmas story, singing the Christmas songs, and living the Christmas spirit, we can bring joy and happiness and peace to this world.”  </h3>
-		      <img src="assets/img/norman.png" align="left"/> <h4 class="author_name_white">Norman Vincent Peale </h4>
-		    </div> 
-		</div> 
+		<div class="container slide">
+	    	<!-- Start WOWSlider.com BODY section -->
+	        <!--<div id="wowslider-container1">
+	          <div class="ws_images"><ul>
+	             <li><img src="data1/images/img4.jpg" alt="" title="" id="wows1_0"/></li>
+	             <li><img src="data1/images/img1.jpg" alt="" title="" id="wows1_1"/></li>
+	             <li><a href="http://wowslider.com"><img src="data1/images/img2.jpg" alt="image carousel" title="" id="wows1_2"/></a></li>
+	              <li><img src="data1/images/img3.jpg" alt="" title="" id="wows1_3"/></li>
+	            </ul>
+	          </div>
+	          <div class="ws_bullets">
+	            <div>
+	               <a href="#" title=""><span><img src="data1/tooltips/img4.jpg" alt=""/>1</span></a>
+	               <a href="#" title=""><span><img src="data1/tooltips/img1.jpg" alt=""/>2</span></a>
+	               <a href="#" title=""><span><img src="data1/tooltips/img2.jpg" alt=""/>3</span></a>
+	               <a href="#" title=""><span><img src="data1/tooltips/img3.jpg" alt=""/>4</span></a>
+	             </div>
+	          </div>
+	          <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery carousel</a> by WOWSlider.com v8.2</div>
+	          <div class="ws_shadow"></div>
+	        </div>  
+	        <script type="text/javascript" src="engine1/wowslider.js"></script>
+	        <script type="text/javascript" src="engine1/script.js"></script>
+	        <!-- End WOWSlider.com BODY section -->
+			<h1 style="font-size:36px; color:white">D E C E M B E R&nbsp&nbsp2 0 1 5</h1>
+			<h1 style="font-size:72px; color:white">Welcome to Indonesia!</h1>
+	    </div>
     </div> 
 	
 	

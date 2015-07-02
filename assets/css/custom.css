@@ -108,7 +108,7 @@ img.navigasi {
 
 body {
   font-family:  'Raleway';
-  color: #bbb;
+  color: #ddd;
 }
 
 @font-face {
@@ -197,6 +197,8 @@ p {
   text-align: center;
   position: relative;
   font-size: 20px;
+  margin: auto;
+  background-color: ##FBB829;
 }
 
 
@@ -238,8 +240,8 @@ img.shadow {
 
 img.giant {
   max-height: 100vh;
-  padding-bottom: 100px;
   float: right;
+  margin: auto;
 }
 
 .morenews {
