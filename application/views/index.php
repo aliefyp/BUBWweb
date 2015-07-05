@@ -6,6 +6,7 @@
 		<!--Bootstrap-->
 		<link rel="stylesheet" href="assets/css/bootstrap.css"/>
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 		<!--Hover Effect-->
 
 		<link rel="stylesheet" type="text/css" href="assets/hover/css/normalize.css" />
@@ -29,11 +30,13 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 
-	<!-- Start WOWSlider.com HEAD section -->
-	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-	<script type="text/javascript" src="engine1/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section -->
+		<!-- Start WOWSlider.com HEAD section -->
+		<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+		<script type="text/javascript" src="engine1/jquery.js"></script>
+		<!-- End WOWSlider.com HEAD section -->
 
+
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 
 	<script>
@@ -78,20 +81,21 @@ $(document).ready(function() {
 <!-- HEADER START-->   
 <header id="header">
 <div class="container">
-<div id="logo"><a href=""> BUBW </a></div>
+<div id="logo"><a href="#slide1" title="Home"> BUBW </a></div>
 
 <nav id="nav">
 	<ul>
-		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
-		<li><a href="#slide2" title="Next Section">Slide2</a></li>
-		<li><a href="#slide2ext" title="Next Section">Slide3</a></li>
-		<li><a  href="#slide4" title="Next Section">Slide 4</a></li>
-		<li><a href="#slide5" title="Next Section">Slide 5</a></li>
+		<li><a href="#slide2" title="About">About</a></li>
+		<li><a href="#slide2ext" title="Registration">Registration</a></li>
+		<li><a  href="#slide4" title="Contact">Contact</a></li>
+		<li><a href="#" title="Register" data-toggle="modal" data-target="#myModal">FAQ</a></li>
 	</ul>
 </nav>
 </div>
 </header>	
-<!--HEADER END-->   
+<!--HEADER END-->  
+
+
 
 <!-- SLIDES START -->   
 	<div id="slide1">
@@ -102,7 +106,7 @@ $(document).ready(function() {
     </div> 
 
     <div id="smallslide">
-		<h3>Sponsored by:</h3>
+		<h3 style="margin:0;">Sponsored by:</h3>
 	</div>
 
 	<div id="slide2">
@@ -127,7 +131,7 @@ $(document).ready(function() {
 	              <a href="http://www.bubw.org" style="font-size:14px" target="_blank">Read more</a>
 	            </div>
 	          </div>
-	          <a href="http://www.bubw.org" class="btn btn-info btn-lg morenews" role="button" target="_blank">MORE NEWS!</a>
+	          <a href="#slide2ext" class="btn btn-info btn-lg morenews" role="button" target="_blank">MORE NEWS!</a>
 	        </div>
 	      </div>
 	    </div>	    
@@ -155,7 +159,7 @@ $(document).ready(function() {
 	
 	
    <div id="slide3">
-		<div class="container slide">
+		<div class="container">
 	    	<!-- Start WOWSlider.com BODY section -->
 	        <!--<div id="wowslider-container1">
 	          <div class="ws_images"><ul>
@@ -186,12 +190,47 @@ $(document).ready(function() {
 	
 	
 	<div id="slide4">
-		<h2>Winston</h2>
+		<p style="text-align:center"><br>Find more about <strong>BUBW Conference</strong> and detail description about <strong>BUBW Indonesia</strong></p>
+		<div class="grid" style="margin-top:50px;">
+			<figure class="effect-winston">
+				<img src="assets/img/about1.png" alt="about1"/>
+				<figcaption>
+					<h4 class="grid">What is BUBW?</h4>
+					<p>
+						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
+					</p>
+				</figcaption>			
+			</figure>
+			<figure class="effect-winston">
+				<img src="assets/img/about2.png" alt="about2"/>
+				<figcaption>
+					<h4 class="grid">Why BUBW?</h4>
+					<p>
+						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
+					</p>
+				</figcaption>			
+			</figure>
+			<figure class="effect-winston">
+				<img src="assets/img/about3.png" alt="about3"/>
+				<figcaption>
+					<h4 class="grid">Jolly <span>Winston</span></h4>
+					<p>
+						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
+					</p>
+				</figcaption>			
+			</figure>
+		</div>
 		<div class="grid">
 			<figure class="effect-winston">
 				<img src="assets/hover/img/30.jpg" alt="img30"/>
 				<figcaption>
-					<h2>Jolly <span>Winston</span></h2>
+					<h4>Jolly <span>Winston</span></h4>
 					<p>
 						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
 						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
@@ -202,7 +241,18 @@ $(document).ready(function() {
 			<figure class="effect-winston">
 				<img src="assets/hover/img/1.jpg" alt="img01"/>
 				<figcaption>
-					<h2>Jolly <span>Winston</span></h2>
+					<h4>Jolly <span>Winston</span></h4>
+					<p>
+						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
+						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
+					</p>
+				</figcaption>			
+			</figure>
+			<figure class="effect-winston">
+				<img src="assets/hover/img/1.jpg" alt="img01"/>
+				<figcaption>
+					<h4>Jolly <span>Winston</span></h4>
 					<p>
 						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
 						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
@@ -225,6 +275,29 @@ $(document).ready(function() {
 		
 
     </div> 
+
+
+    <!-- Modal Register -->
+	<div id="myModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">Modal Header</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>Some text in the modal.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+
+
 	
 <!-- SLIDES END -->
 <script>

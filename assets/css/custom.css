@@ -108,7 +108,7 @@ img.navigasi {
 
 body {
   font-family:  'Lato';
-  color: #ddd;
+  color: white;
 }
 
 @font-face {
@@ -118,16 +118,21 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: fertigo;
-  color: #777;
+  color: #555;
   text-align: center;
 }
 
-h2.hl {
+h2.hl{
   padding-bottom: 50px;
+}
+
+h4.grid {
+  color: #fff;
 }
 
 p {
   font-size: 14px;
+  color: #999;    
 }
 
 .isi {
@@ -244,13 +249,6 @@ img.giant {
   margin: 0;
 }
 
-.morenews {
-  margin: 80px 0 0 0;
-  width: 50%;
-  padding: 5px solid #46b8da;
-  height: 50px;
-}
-
 
 .swiper-container {
     width: 100%;
@@ -283,7 +281,6 @@ button {
 
 .btn {
   border-radius: 0;
-  border: 0px;
 }
 
 .btn:hover,
@@ -293,9 +290,20 @@ button {
 }
 
 
+.morenews {
+  margin: 80px 0 0 0;
+  width: 50%;
+  padding: 5px solid #46b8da;
+  height: 50px;
+  border-bottom: 4px solid #3FA3D9;
+  border-right: 2px solid #3FA3D9;
+}
+
+
 .container.slide {
   padding: 150px 0;
 }
+
 
 
 /* http://www.colourlovers.com/palette/3789114/Annoyed_the_Beach */
