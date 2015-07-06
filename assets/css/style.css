@@ -37,7 +37,7 @@ h3 {
    font-family: Oswald;
    font-weight: normal;
    font-size: 24px;
-   text-align: center;
+   /*text-align: center;*/
    margin: 5px 0;
 	padding: 20px 0;
 	z-index: 1;
@@ -59,7 +59,7 @@ a.rpanel:hover{ color: #fff; }
 
 #header { 
 	width: 100%; 
-	background: rgba(230,174,0,0.6);
+	background: rgb(46, 39, 43);
 	height: 80px; 	
 	position: fixed;
 	margin-top: 0px;

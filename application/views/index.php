@@ -79,20 +79,42 @@ $(document).ready(function() {
 </div>-->
 
 <!-- HEADER START-->   
-<header id="header">
-<div class="container">
-<div id="logo"><a href="#slide1" title="Home"> BUBW </a></div>
-
-<nav id="nav">
-	<ul>
-		<li><a href="#slide2" title="About">About</a></li>
-		<li><a href="#slide2ext" title="Registration">Registration</a></li>
-		<li><a  href="#slide4" title="Contact">Contact</a></li>
-		<li><a href="#" title="Register" data-toggle="modal" data-target="#myModal">FAQ</a></li>
-	</ul>
-</nav>
-</div>
-</header>	
+	<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" id="logo" href="#home">
+                    <h2>BUBW</h2>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav pull-right">
+                    <li>
+                        <a href="#slide2" title="About">About</a>
+                    </li>
+                    <li>
+                        <a href="#slide2ext" title="Registration" data-toggle="modal" data-target="#myModal">Registration</a>
+                    </li>
+                    <li>
+                        <a href="#slide4" title="Contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#slide5" title="Contact">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>	
 <!--HEADER END-->  
 
 
@@ -111,27 +133,48 @@ $(document).ready(function() {
 
 	<div id="slide2">
 	    <div class="container slide">
-	      <div class="row" style="text-align:center">
-	        <div class="col-md-6 col-sm-12">
+	      <div class="row">
+	        <div class="col-md-6 col-sm-12" style="text-align:center">
 	          <h2 class="hl">H I G H L I G H T S</h2>
 	          <iframe width="500" height="260" src="https://www.youtube.com/embed/xkDDESlO5dM" autoplay="1" frameborder="0" allowfullscreen></iframe>
 	          <img src="assets/img/shadow.png" alt="Responsive image" class="img-responsive shadow ">
 	        </div>
 	        <div class="col-md-6 col-sm-12">
-	          <h3>...</h3>
+	          <h3>Recent news</h3>
 	          <div class="row">
-	            <div class="col-md-6 col-sm-12 prev">
-	              <h3>Previous Conference</h3>
-	              <p>CECF is offering its 19th annual conference in Orlando, FL to American high school students and ECA grant exchange students studying in the U.S. under the auspices of the Department of State’s exchange programs.</p>
-	              <a href="http://www.bubw.org" style="font-size:14px" target="_blank">Read more</a>
-	            </div>
-	            <div class="col-md-6 col-sm-12 prev">
-	              <h3>Recent Post</h3>
-	              <p>CECF is offering its 19th annual conference in Orlando, FL to American high school students and ECA grant exchange students studying in the U.S. under the auspices of the Department of State’s exchange programs.</p>
-	              <a href="http://www.bubw.org" style="font-size:14px" target="_blank">Read more</a>
-	            </div>
+	            <div class="col-md-12 col-lg-12">
+					<ul class="media-list main-list">
+					  <li class="media">
+					    <a class="pull-left" href="#">
+					      <img class="media-object" src="http://placehold.it/150x90" alt="...">
+					    </a>
+					    <div class="media-body">
+					      <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
+					      <p class="by-author">By Jhon Doe</p>
+					    </div>
+					  </li>
+					  <li class="media">
+					    <a class="pull-left" href="#">
+					      <img class="media-object" src="http://placehold.it/150x90" alt="...">
+					    </a>
+					    <div class="media-body">
+					      <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
+					      <p class="by-author">By Jhon Doe</p>
+					    </div>
+					  </li>
+					  <!-- <li class="media">
+					    <a class="pull-left" href="#">
+					      <img class="media-object" src="http://placehold.it/150x90" alt="...">
+					    </a>
+					    <div class="media-body">
+					      <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
+					      <p class="by-author">By Jhon Doe</p>
+					    </div>
+					  </li> -->
+					</ul>
+				</div>
 	          </div>
-	          <a href="#slide2ext" class="btn btn-info btn-lg morenews" role="button" target="_blank">MORE NEWS!</a>
+	          <a href="#slide2ext" class="btn btn-info btn-lg morenews" style="float:right" role="button" target="_blank">MORE NEWS!</a>
 	        </div>
 	      </div>
 	    </div>	    
@@ -190,76 +233,116 @@ $(document).ready(function() {
 	
 	
 	<div id="slide4">
-		<p style="text-align:center"><br>Find more about <strong>BUBW Conference</strong> and detail description about <strong>BUBW Indonesia</strong></p>
-		<div class="grid" style="margin-top:50px;">
-			<figure class="effect-winston">
-				<img src="assets/img/about1.png" alt="about1"/>
-				<figcaption>
-					<h4 class="grid">What is BUBW?</h4>
-					<p>
-						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
-					</p>
-				</figcaption>			
-			</figure>
-			<figure class="effect-winston">
-				<img src="assets/img/about2.png" alt="about2"/>
-				<figcaption>
-					<h4 class="grid">Why BUBW?</h4>
-					<p>
-						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
-					</p>
-				</figcaption>			
-			</figure>
-			<figure class="effect-winston">
-				<img src="assets/img/about3.png" alt="about3"/>
-				<figcaption>
-					<h4 class="grid">Jolly <span>Winston</span></h4>
-					<p>
-						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
-					</p>
-				</figcaption>			
-			</figure>
-		</div>
-		<div class="grid">
-			<figure class="effect-winston">
-				<img src="assets/hover/img/30.jpg" alt="img30"/>
-				<figcaption>
-					<h4>Jolly <span>Winston</span></h4>
-					<p>
-						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
-					</p>
-				</figcaption>			
-			</figure>
-			<figure class="effect-winston">
-				<img src="assets/hover/img/1.jpg" alt="img01"/>
-				<figcaption>
-					<h4>Jolly <span>Winston</span></h4>
-					<p>
-						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
-					</p>
-				</figcaption>			
-			</figure>
-			<figure class="effect-winston">
-				<img src="assets/hover/img/1.jpg" alt="img01"/>
-				<figcaption>
-					<h4>Jolly <span>Winston</span></h4>
-					<p>
-						<a href="#"><i class="fa fa-fw fa-star-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
-						<a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
-					</p>
-				</figcaption>			
-			</figure>
+		<div class="container">
+			<p style="text-align:center"><br>Find more about <strong>BUBW Conference</strong> and detail description about <strong>BUBW Indonesia</strong></p>
+			<div class="row" style="width:80%;margin-left:10%">
+		        <div class="col-sm-4 col-md-4">
+		            <div class="post">
+		                <div class="post-img-content">
+		                    <img src="assets/img/about1.png" class="img-responsive" />
+		                </div>
+		                <div class="content">
+		                    <div>
+		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
+		                    </div>
+		                    <div>
+		                        <a href="http://www.jquery2dotnet.com/2014/01/jquery-highlight-table-row-and-column.html" class="btn btn-default btn-sm">Read more</a>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="col-sm-4 col-md-4">
+		            <div class="post">
+		                <div class="post-img-content">
+		                    <img src="assets/img/about2.png" class="img-responsive" />
+		                </div>
+		                <div class="content">
+		                    <div>
+		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
+		                    </div>
+		                    <div>
+		                        <a href="http://www.jquery2dotnet.com/2013/11/share-social-media-round-buttons.html" class="btn btn-default btn-sm">Read more</a>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="col-sm-4 col-md-4">
+		            <div class="post">
+		                <div class="post-img-content">
+		                    <img src="assets/img/about3.png" class="img-responsive" />
+		                </div>
+		                <div class="content">
+		                    <div>
+		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
+		                    </div>
+		                    <div>
+		                        <a href="http://www.jquery2dotnet.com/2013/07/cool-social-sharing-button-using-css3.html" class="btn btn-default btn-sm">Read more</a>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+
+
+		    <div class="row" style="width:80%;margin-left:10%">
+		        <div class="col-sm-4 col-md-4">
+		            <div class="post">
+		                <div class="post-img-content">
+		                    <img src="assets/img/about4.png" class="img-responsive" />
+		                </div>
+		                <div class="content">
+		                    <div>
+		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
+		                    </div>
+		                    <div>
+		                        <a href="http://www.jquery2dotnet.com/2014/01/jquery-highlight-table-row-and-column.html" class="btn btn-default btn-sm">Read more</a>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="col-sm-4 col-md-4">
+		            <div class="post">
+		                <div class="post-img-content">
+		                    <img src="assets/img/about5.png" class="img-responsive" />
+		                </div>
+		                <div class="content">
+		                    <div>
+		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
+		                    </div>
+		                    <div>
+		                        <a href="http://www.jquery2dotnet.com/2013/11/share-social-media-round-buttons.html" class="btn btn-default btn-sm">Read more</a>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="col-sm-4 col-md-4">
+		            <div class="post">
+		                <div class="post-img-content">
+		                    <img src="assets/img/about6.png" class="img-responsive" />
+		                </div>
+		                <div class="content">
+		                    <div>
+		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
+		                    </div>
+		                    <div>
+		                        <a href="http://www.jquery2dotnet.com/2013/07/cool-social-sharing-button-using-css3.html" class="btn btn-default btn-sm">Read more</a>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
 		</div>
     </div> 
 	
