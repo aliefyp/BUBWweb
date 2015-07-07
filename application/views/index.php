@@ -9,20 +9,29 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>BUBW Indonesia</title>
 		<link rel="shortcut icon" href="assets/img/favicon.png">
+		<!--New Page Transition
+		<link rel="stylesheet" type="text/css" href="assets/newpage/css/component.css" />
+		<script src="assets/newpage/js/modernizr.custom.js"></script>-->
+
 		<!--Bootstrap-->
 		<link rel="stylesheet" href="assets/css/bootstrap.css"/>
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
   		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-		<!--Hover Effect-->
+		
+		
 
+		<!--Hover Effect-->
 		<link rel="stylesheet" type="text/css" href="assets/hover/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="assets/hover/css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="assets/hover/css/set2.css" />
 		<link rel="stylesheet" type="text/css" href="assets/hover/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+		
 		<!--Parallax-->
 		<link rel="stylesheet" href="assets/css/style.css"/>
+		
 		<!--Custom-->
 		<link rel="stylesheet" href="assets/css/custom.css"/>
+		
 		<!--JQuery-->
 		<script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
 		<!--Fonts-->
@@ -36,6 +45,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 
+
 		<!-- Start WOWSlider.com HEAD section -->
 		<link rel="stylesheet" type="text/css" href="engine1/style.css" />
 		<script type="text/javascript" src="engine1/jquery.js"></script>
@@ -43,7 +53,6 @@
 
 
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
 
 	<script>
    
@@ -168,6 +177,15 @@ $(document).ready(function() {
 					      <p class="by-author">By Jhon Doe</p>
 					    </div>
 					  </li>
+					  <li class="media">
+					    <a class="pull-left" href="#">
+					      <img class="media-object" src="http://placehold.it/150x90" alt="...">
+					    </a>
+					    <div class="media-body">
+					      <h4 class="media-heading">Lorem ipsum dolor asit amet</h4>
+					      <p class="by-author">By Jhon Doe</p>
+					    </div>
+					  </li>
 					  <!-- <li class="media">
 					    <a class="pull-left" href="#">
 					      <img class="media-object" src="http://placehold.it/150x90" alt="...">
@@ -184,6 +202,9 @@ $(document).ready(function() {
 	        </div>
 	      </div>
 	    </div>	    
+    </div> 
+
+    <div id="slide2-2">
     </div> 
 
     <div id="slide2" style="height:100vh">
@@ -209,31 +230,10 @@ $(document).ready(function() {
 	
    <div id="slide3">
 		<div class="container">
-	    	<!-- Start WOWSlider.com BODY section -->
-	        <!--<div id="wowslider-container1">
-	          <div class="ws_images"><ul>
-	             <li><img src="data1/images/img4.jpg" alt="" title="" id="wows1_0"/></li>
-	             <li><img src="data1/images/img1.jpg" alt="" title="" id="wows1_1"/></li>
-	             <li><a href="http://wowslider.com"><img src="data1/images/img2.jpg" alt="image carousel" title="" id="wows1_2"/></a></li>
-	              <li><img src="data1/images/img3.jpg" alt="" title="" id="wows1_3"/></li>
-	            </ul>
-	          </div>
-	          <div class="ws_bullets">
-	            <div>
-	               <a href="#" title=""><span><img src="data1/tooltips/img4.jpg" alt=""/>1</span></a>
-	               <a href="#" title=""><span><img src="data1/tooltips/img1.jpg" alt=""/>2</span></a>
-	               <a href="#" title=""><span><img src="data1/tooltips/img2.jpg" alt=""/>3</span></a>
-	               <a href="#" title=""><span><img src="data1/tooltips/img3.jpg" alt=""/>4</span></a>
-	             </div>
-	          </div>
-	          <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery carousel</a> by WOWSlider.com v8.2</div>
-	          <div class="ws_shadow"></div>
-	        </div>  
-	        <script type="text/javascript" src="engine1/wowslider.js"></script>
-	        <script type="text/javascript" src="engine1/script.js"></script>
-	        <!-- End WOWSlider.com BODY section -->
-			<h1 style="font-size:36px; color:white">D E C E M B E R&nbsp&nbsp2 0 1 5</h1>
-			<h1 style="font-size:72px; color:white">Welcome to Indonesia!</h1>
+			<div class="col-md-12">
+				<h1 style="font-size:36px; color:white">D E C E M B E R&nbsp&nbsp2 0 1 5</h1>
+				<h1 style="font-size:72px; color:white">Welcome to Indonesia!</h1>
+			</div>
 	    </div>
     </div> 
 	
@@ -300,115 +300,6 @@ $(document).ready(function() {
 					</figure>
 				</div>
 			</div>
-
-			<!-- <div class="row gridAbout">
-		        <div class="col-sm-4 col-md-4">
-		            <div class="post">
-		                <div class="post-img-content">
-		                    <img src="assets/img/about1.png" class="img-responsive" />
-		                </div>
-		                <div class="content">
-		                    <div>
-		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
-		                    </div>
-		                    <div>
-		                        <a href="http://www.jquery2dotnet.com/2014/01/jquery-highlight-table-row-and-column.html" class="btn btn-default btn-sm">Read more</a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="col-sm-4 col-md-4">
-		            <div class="post">
-		                <div class="post-img-content">
-		                    <img src="assets/img/about2.png" class="img-responsive" />
-		                </div>
-		                <div class="content">
-		                    <div>
-		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
-		                    </div>
-		                    <div>
-		                        <a href="http://www.jquery2dotnet.com/2013/11/share-social-media-round-buttons.html" class="btn btn-default btn-sm">Read more</a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="col-sm-4 col-md-4">
-		            <div class="post">
-		                <div class="post-img-content">
-		                    <img src="assets/img/about3.png" class="img-responsive" />
-		                </div>
-		                <div class="content">
-		                    <div>
-		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
-		                    </div>
-		                    <div>
-		                        <a href="http://www.jquery2dotnet.com/2013/07/cool-social-sharing-button-using-css3.html" class="btn btn-default btn-sm">Read more</a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-
-
-		    <div class="row gridAbout">
-		        <div class="col-sm-4 col-md-4">
-		            <div class="post">
-		                <div class="post-img-content">
-		                    <img src="assets/img/about4.png" class="img-responsive" />
-		                </div>
-		                <div class="content">
-		                    <div>
-		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
-		                    </div>
-		                    <div>
-		                        <a href="http://www.jquery2dotnet.com/2014/01/jquery-highlight-table-row-and-column.html" class="btn btn-default btn-sm">Read more</a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="col-sm-4 col-md-4">
-		            <div class="post">
-		                <div class="post-img-content">
-		                    <img src="assets/img/about5.png" class="img-responsive" />
-		                </div>
-		                <div class="content">
-		                    <div>
-		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
-		                    </div>
-		                    <div>
-		                        <a href="http://www.jquery2dotnet.com/2013/11/share-social-media-round-buttons.html" class="btn btn-default btn-sm">Read more</a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		        <div class="col-sm-4 col-md-4">
-		            <div class="post">
-		                <div class="post-img-content">
-		                    <img src="assets/img/about6.png" class="img-responsive" />
-		                </div>
-		                <div class="content">
-		                    <div>
-		                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-		                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-		                        unknown printer took a galley of type and scrambled it to make a type specimen book.
-		                    </div>
-		                    <div>
-		                        <a href="http://www.jquery2dotnet.com/2013/07/cool-social-sharing-button-using-css3.html" class="btn btn-default btn-sm">Read more</a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div> -->
 		</div>
     </div> 
 	

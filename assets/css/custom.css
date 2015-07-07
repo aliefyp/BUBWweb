@@ -441,7 +441,8 @@ button {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  font-size: 15px
+  font-size: 15px;
+  padding-top:20px;
 }
 
 @media(min-width:768px) {
@@ -451,7 +452,6 @@ button {
         color: #fff;
     }
 }
-
 /*END OF NAVBAR*/
 
 
@@ -475,9 +475,5 @@ figure.effect-goliath {
 }
 
 /*END OF HOVER EFFECT*/
-
-body{
- overflow: hidden;
-}
 
 /* http://www.colourlovers.com/palette/3789114/Annoyed_the_Beach */

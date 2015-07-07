@@ -155,8 +155,17 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	padding: 0;
 }
 
+
+#slide2-2{
+	background: url(../img/img2.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	padding: 70px;	
+	background-size: cover;
+	height: 40vh;
+}
+
 #slide3{
-	background: url(../img/img5.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/img1.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
 	padding: 70px;	
 	background-size: cover;
