@@ -126,6 +126,11 @@ h2.hl{
   padding-bottom: 50px;
 }
 
+h2.logo{
+  color: #fff;
+  text-align: left;
+}
+
 h4.grid {
   color: #fff;
 }
@@ -432,6 +437,7 @@ button {
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
     color: #fff;
+    height: auto;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -444,6 +450,28 @@ button {
         padding: 15px 0;
         color: #fff;
     }
+}
+
+/*END OF NAVBAR*/
+
+
+/*HOVER GRID EFFECT*/
+.grid {
+  width: 100%;
+  margin-top: 30px;
+}
+
+figure.effect-goliath {
+  background:#fff;
+}
+
+.grid figure {
+  width: 100%;
+  max-width: 100%;
+}
+
+.grid figure img {
+  opacity: none;
 }
 
 /* http://www.colourlovers.com/palette/3789114/Annoyed_the_Beach */

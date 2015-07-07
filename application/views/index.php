@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Creating a Simple Parallax Scrolling Website</title>
+		<title>BUBW Indonesia</title>
 		<!--Bootstrap-->
 		<link rel="stylesheet" href="assets/css/bootstrap.css"/>
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
@@ -90,8 +90,8 @@ $(document).ready(function() {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" id="logo" href="#home">
-                    <h2>BUBW</h2>
+                <a class="navbar-brand" href="#slide1">
+                    <h2 class="logo">BUBW<span><p>&nbspI N D O N E S I A</p></span></h2>
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -235,7 +235,67 @@ $(document).ready(function() {
 	<div id="slide4">
 		<div class="container">
 			<p style="text-align:center"><br>Find more about <strong>BUBW Conference</strong> and detail description about <strong>BUBW Indonesia</strong></p>
-			<div class="row" style="width:80%;margin-left:10%">
+			<div class="row grid">
+				<div class="col-md-4 col-sm-4 ">
+					<figure class="effect-goliath">
+						<img src="assets/img/about1.png" alt="about1"/>
+						<figcaption>
+							<p>When Goliath comes out, you should run.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-4 col-sm-4 ">
+					<figure class="effect-goliath">
+						<img src="assets/img/about2.png" alt="about2"/>
+						<figcaption>
+							<p>When Goliath comes out, you should run.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-4 col-sm-4 ">
+					<figure class="effect-goliath">
+						<img src="assets/img/about3.png" alt="about3"/>
+						<figcaption>
+							<p>When Goliath comes out, you should run.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+			</div>
+
+			<div class="row grid">
+				<div class="col-md-4 col-sm-4 ">
+					<figure class="effect-goliath">
+						<img src="assets/img/about4.png" alt="about4"/>
+						<figcaption>
+							<p>When Goliath comes out, you should run.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-4 col-sm-4 ">
+					<figure class="effect-goliath">
+						<img src="assets/img/about5.png" alt="about5"/>
+						<figcaption>
+							<p>When Goliath comes out, you should run.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-4 col-sm-4 ">
+					<figure class="effect-goliath">
+						<img src="assets/img/about6.png" alt="about6"/>
+						<figcaption>
+							<p>When Goliath comes out, you should run.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+			</div>
+
+			<!-- <div class="row gridAbout">
 		        <div class="col-sm-4 col-md-4">
 		            <div class="post">
 		                <div class="post-img-content">
@@ -290,7 +350,7 @@ $(document).ready(function() {
 		    </div>
 
 
-		    <div class="row" style="width:80%;margin-left:10%">
+		    <div class="row gridAbout">
 		        <div class="col-sm-4 col-md-4">
 		            <div class="post">
 		                <div class="post-img-content">
@@ -342,7 +402,7 @@ $(document).ready(function() {
 		                </div>
 		            </div>
 		        </div>
-		    </div>
+		    </div> -->
 		</div>
     </div> 
 	
