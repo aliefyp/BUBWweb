@@ -67,7 +67,11 @@ $(document).ready(function() {
 
 
 </script>
-
+<style type="text/css">
+body{
+	overflow: hidden;
+}
+</style>
 
  </head> 
 	
@@ -421,7 +425,7 @@ $(document).ready(function() {
 
 
     <!-- Modal Register -->
-	<div id="myModal" class="modal fade" role="dialog">
+	<div id="myModal" class="modal fade" role="dialog" >
 	  <div class="modal-dialog">
 	    <!-- Modal content-->
 	    <div class="modal-content">
