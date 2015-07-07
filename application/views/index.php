@@ -8,6 +8,7 @@
   <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>BUBW Indonesia</title>
+		<link rel="shortcut icon" href="assets/img/favicon.png">
 		<!--Bootstrap-->
 		<link rel="stylesheet" href="assets/css/bootstrap.css"/>
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
@@ -72,11 +73,7 @@ $(document).ready(function() {
 
 
 </script>
-<style type="text/css">
-body{
-	overflow: hidden;
-}
-</style>
+
 
  </head> 
 	
@@ -430,7 +427,7 @@ body{
 
 
     <!-- Modal Register -->
-	<div id="myModal" class="modal fade" role="dialog" >
+	<div id="myModal" class="modal fade" role="dialog">
 	  <div class="modal-dialog">
 	    <!-- Modal content-->
 	    <div class="modal-content">

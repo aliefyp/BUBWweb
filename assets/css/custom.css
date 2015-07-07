@@ -474,4 +474,10 @@ figure.effect-goliath {
   opacity: none;
 }
 
+/*END OF HOVER EFFECT*/
+
+body{
+ overflow: hidden;
+}
+
 /* http://www.colourlovers.com/palette/3789114/Annoyed_the_Beach */
