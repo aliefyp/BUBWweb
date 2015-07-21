@@ -49,8 +49,8 @@ h3 {
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 960px; }
 .clear { clear: both; }
-a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
-a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"fertigo"; text-decoration: none; margin: 7px 11px; }
+a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"fertigo"; text-decoration: none; margin: 7px 11px; }
 
 a.lpanel:hover{ color: #fff; }
 a.rpanel:hover{ color: #fff; }
@@ -92,7 +92,7 @@ a.rpanel:hover{ color: #fff; }
 /*= QUOTES AND SOME ELEMENTS
 --------------------------------------------------------*/
 .quotes {   
- font-family: 'Goudy Bookletter 1911', serif;
+ font-family: 'Raleway', serif;
    font-weight: normal;
    font-size: 30px;
   text-align: left;
@@ -140,9 +140,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide1{
 	background:url('../img/bkg.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
-	height: 100vh;
-	margin: 0;
-	padding: 0 0 260px 0;
+	height: 85vh;
 	background-size: cover;
 }
 
@@ -189,19 +187,19 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #smallslide {
 	background: #fff;
-	height: 100px;
+	height:15vh;
 	border-bottom: 1px solid #bbb;
 	text-align: center;
 }
 
 
-#slide1, #slide2, #slide4, #slide5 {
-	min-height: 100vh
+#slide2, #slide4, #slide5 {
+	height: auto;
+	min-height: 100vh;
 }
 
-#slide4 {
-	height: auto
-}
+
+
 
 
 /*= FOOTER 
