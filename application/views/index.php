@@ -95,7 +95,7 @@ $(document).ready(function() {
 
 <!-- HEADER START-->   
 	<!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -113,16 +113,19 @@ $(document).ready(function() {
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav pull-right">
                     <li>
-                        <a href="#slide2" title="About">About</a>
+                        <a href="#slide2" title="Greetings">Greetings</a>
                     </li>
                     <li>
-                        <a href="#slide2ext" title="Registration" data-toggle="modal" data-target="#myModal">Registration</a>
+                        <a href="#slide2ext" title="About">About</a>
                     </li>
                     <li>
-                        <a href="#slide4" title="Contact">Contact</a>
+                        <a href="#slide4" title="BUBW Indonesia">BUBW Indonesia</a>
                     </li>
                     <li>
-                        <a href="#slide5" title="Contact">FAQ</a>
+                        <a href="#slide5" title="Registration">Registration</a>
+                    </li>
+                    <li>
+                        <a href="#slide5" title="FAQ">FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -169,9 +172,9 @@ $(document).ready(function() {
     <div id="slide2">
 	    <div id="slide2ext" class="container slide" style="padding-top:100px;">
 	      <div class="row">
-	            <div class="col-md-8 col-sm-6">
+	            <div class="col-md-8 col-sm-12">
 	              <div class="page-header">
-	                <h1 style="font-size:60px;">A B O U T</h1>
+	                <h1 style="font-size:48px;">A B O U T</h1>
 	              </div>
 	              <div class="container-fluid">
 				    <div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
@@ -224,7 +227,7 @@ $(document).ready(function() {
 				                            <h2>Civilizations Exchange and Cooperation Foundation (CECF)</h2>
 				                            <p>Civilizations Exchange and Cooperation Foundation (CECF) is determined to foster cooperation rather than confrontation among people of different religions and cultures. CECF focuses on factors that led to the rise and fall of previous civilizations and how people of this millennium can benefit from lessons of the past in a world literally changing to a global village. The International Better Understanding for a Better World (BUBW-Indonesia)Conference is an adaptation from the Better Understanding for a Better World (BUBW) Conferences in the U.S. and has been approved by Civilizations Exchange and Cooperation Foundation (CECF).</p>
 											<p>See more at:<br />
-											<a href="www.bubw.org">www.bubw.org</a>, <a href="www.cecf-net.org">www.cecf-net.org</a></p>
+											<a href="www.bubw.org" target="_blank">www.bubw.org</a>, <a href="www.cecf-net.org" target="_blank">www.cecf-net.org</a></p>
 				                        </div>
 				                    </div>
 				                </div>           
@@ -234,17 +237,17 @@ $(document).ready(function() {
 				        <!-- End Carousel Inner -->
 				        <div class="controls">
 				            <ul class="nav">
-				                <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#"><small>BUBW Conference</small></a></li>
-				                <li data-target="#custom_carousel" data-slide-to="1"><a href="#"><small>Objectives</small></a></li>
-				                <li data-target="#custom_carousel" data-slide-to="2"><a href="#"><small>International BUBW</small></a></li>
-				                <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><small>About CECF</small></a></li>
+				                <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#">BUBW Conference</a></li>
+				                <li data-target="#custom_carousel" data-slide-to="1"><a href="#">Objectives</a></li>
+				                <li data-target="#custom_carousel" data-slide-to="2"><a href="#">International BUBW</a></li>
+				                <li data-target="#custom_carousel" data-slide-to="3"><a href="#">About CECF</a></li>
 				            </ul>
 				        </div>
 				    </div>
 				    <!-- End Carousel -->
 				</div>
 	            </div>
-	            <div class="col-md-4 col-sm-6">
+	            <div class="col-md-4 col-sm-12">
 	              <img src="assets/img/dance.png" class="img-responsive giant" alt="Responsive image">
 	            </div>
 	          </div>
@@ -262,9 +265,117 @@ $(document).ready(function() {
     </div> 
 	
 	
-	<div id="slide4">
+	<div id="slide4" style="height:120vh">
 		<div class="container">
-			<p style="text-align:center"><br>Find more about <strong>BUBW Conference</strong> and detail description about <strong>BUBW Indonesia</strong></p>
+			<div class="page-header">
+			    <h2>BUBW Indonesia</h2>
+		  	</div>
+		  	<div class="col-md-3 col-sm-12">
+			  	<div class="controls">
+		            <ul class="nav nav-pills nav-stacked" style="font-size:14px;">
+		                <li data-target="#custom_carousel_1" data-slide-to="0"><a href="#">General Program</a></li>
+		                <li data-target="#custom_carousel_1" data-slide-to="1"><a href="#">General Rundown</a></li>
+		                <li data-target="#custom_carousel_1" data-slide-to="2"><a href="#">AFS-Bina Antarbudaya Chapter Yogyakarta</a></li>
+		                <li data-target="#custom_carousel_1" data-slide-to="3"><a href="#">Indonesia and Yogyakarta at a glance</a></li>
+		            </ul>
+		        </div>
+          	</div>
+          	<div class="col-md-9 col-sm-12">
+          		<div class="container-fluid">
+				    <div id="custom_carousel_1" class="carousel slide" data-ride="carousel" data-interval="10000">
+				        <!-- Wrapper for slides -->
+				        <div class="carousel-inner">
+				            <div class="item active">
+				                <div class="container-fluid">
+				                    <div class="row">
+				                        <div class="col-md-6 col-sm-12">
+				                        	<h4>Call for Paper</h4>
+				                        	<p>Grand theme: <strong>Better Understanding</strong> as a Grand Tool to Face the World and South East Asia Challenges</p>
+				                        	<p>
+				                        		<br/>1.	Subtheme: <strong>Leadership Skills and Good Management</strong> in the age of the global village
+				                        		<br/>2.	Subtheme: <strong>Religious and Cultural Diversity</strong> as a blessing rather than a curse
+				                        		<br/>3.	Subtheme: <strong>Conflict Resolution Skills</strong> for interpersonal, social, national and international issues
+				                        	</p>
+				                        	<p>Each paper is original work without any issues of plagiarism.</p>
+	                        			</div>
+	                        			<div class="col-md-6 col-sm-12">
+				                        	<h4>International Conference</h4>
+				                        	<p>Better Understanding for Better World Program will be held five days (2nd of December-6th of December 2015) in Yogyakarta, Indonesia. All participants will have the conference at the hotel. The conference will be delivered by expert speakers from all four aspects (Global Citizenship, Leadership, Conflict Resolution, and Interfaith) along with mini simulation and discussion. Participants will also get chance to visit and enjoy religion and cultural sites of Yogyakarta.</p>
+				                        	<p>Grand theme: <strong>Better Understanding</strong> as a Grand Tool to Face the World and South East Asia Challenges.</p>
+				                        	<p>
+				                        		<br/>1.	Subtheme: <strong>Leadership Skills and Good Management</strong> in the age of the global village
+				                        		<br/>2.	Subtheme: <strong>Religious and Cultural Diversity</strong> as a blessing rather than a curse
+				                        		<br/>3.	Subtheme: <strong>Conflict Resolution Skills</strong> for interpersonal, social, national and international issues
+				                        	</p>
+				                        </div>
+				                    </div>
+				                </div>            
+				            </div> 
+				            <div class="item">
+				                <div class="container-fluid">
+				                    <div class="row">
+				                        <div class="col-md-12">
+				                            <h2>BUBW's Objectives</h2>
+				                            <ul style="font-size:14px; color:#777">
+				                            	<li>Facilitate mutual understanding and appreciation between students from diverse regional, economic, social, religious, cultural and ethnic backgrounds</li>
+				                            	<li>Learn about and discuss the practice of religion and faith in a pluralistic society with the objective of promoting tolerance, mutual respect, and an awareness of common values</li>
+				                            	<li>Discuss the danger of religious extremism, fanaticism or ethnic nationalism, which has historically been the recipe for wars and conflicts in many civilizations</li>
+				                            	<li>Introduce various aspects of leadership in the age of a "global village," including those involving business and entrepreneurship</li>
+				                            	<li>Forge ties of friendship between the participants, who are without doubt, the future leaders of tomorrow</li>
+				                            </ul>
+				                        </div>
+				                    </div>
+				                </div>            
+				            </div> 
+				            <div class="item">
+				                <div class="container-fluid">
+				                    <div class="row">
+				                        <div class="col-md-12">
+				                        	<p>Bina Antarbudaya is a nonprofit, volunteer-based organization and is a partner of AFS Intercultural Program. This organization is fully committed in building a better world through youth exchange program with intercultural understanding as its base. Bina Antarbudaya aims to prepare future leaders with high awareness, intercultural understanding, and environmental consciousness. Through interaction with the citizens of the world, the participants learn to share, communicate, and appreciate differences. In the future, the participants are prepared to be leaders who can value diversity, elevate the importance of peace and friendship, and have the ability to build positive relationship and understanding between cultures and countries. With more than fifty years of experience in intercultural understanding, Bina Antarbudaya has sent more than 3,000 Indonesian students to various countries and has accepted more than 1,500 foreign students to live and learn in Indonesia.</p>
+				                        	<p>Bina Antarbudaya Chapter Yogyakarta is proudly hosting BUBW-Indonesa as it will be held in Yogyakarta, Indonesia. With trusted organization assisting BUBW Committee itself to organize the event, BUBW-Indonesia will be a promising project event to attend and participate in.</p>
+				                        	<p>See more at: <a href="http://www.bina-antarbudaya.or.id/en/pages/tentang-bina-antarbudaya.html#sthash.Yg2Fhyw2.dpuf" target="_blank">http://www.bina-antarbudaya.or.id/en/pages/tentang-bina-antarbudaya.html#sthash.Yg2Fhyw2.dpuf</a></p>
+				                        </div>
+				                    </div>
+				                </div>           
+				            </div> 
+				            <div class="item">
+				                <div class="container-fluid">
+				                    <div class="row" style="text-align:center">
+				                        <!-- Start WOWSlider.com BODY section -->
+										<div id="wowslider-container1">
+										<div class="ws_images"><ul>
+												<li><img src="data1/images/prev1.jpg" alt="Where is Indonesia?" title="Where is Indonesia?" id="wows1_0"/></li>
+												<li><img src="data1/images/prev2.jpg" alt="Climate of Indonesia" title="Climate of Indonesia" id="wows1_1"/></li>
+												<li><img src="data1/images/prev3.jpg" alt="About Yogyakarta" title="About Yogyakarta" id="wows1_2"/></li>
+												<li><a href="http://wowslider.com/vi"><img src="data1/images/prev4.jpg" alt="slider html" title="Entry" id="wows1_3"/></a></li>
+												<li><img src="data1/images/prev5.jpg" alt="People and Culture" title="People and Culture" id="wows1_4"/></li>
+											</ul></div>
+											<div class="ws_bullets"><div>
+												<a href="#" title="Where is Indonesia?"><span><img src="data1/tooltips/prev1.jpg" alt="Where is Indonesia?"/>1</span></a>
+												<a href="#" title="Climate of Indonesia"><span><img src="data1/tooltips/prev2.jpg" alt="Climate of Indonesia"/>2</span></a>
+												<a href="#" title="About Yogyakarta"><span><img src="data1/tooltips/prev3.jpg" alt="About Yogyakarta"/>3</span></a>
+												<a href="#" title="Entry"><span><img src="data1/tooltips/prev4.jpg" alt="Entry"/>4</span></a>
+												<a href="#" title="People and Culture"><span><img src="data1/tooltips/prev5.jpg" alt="People and Culture"/>5</span></a>
+											</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">css image gallery</a> by WOWSlider.com v8.2</div>
+										<div class="ws_shadow"></div>
+										</div>	
+										<script type="text/javascript" src="engine1/wowslider.js"></script>
+										<script type="text/javascript" src="engine1/script.js"></script>
+										<!-- End WOWSlider.com BODY section -->
+										<a href="#myModal" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; width:auto" role="button" target="_blank">FIND MORE ABOUT INDONESIA</a>
+				                    </div>
+				                </div>           
+				            </div> 
+				        <!-- End Item -->
+				        </div>
+				        <!-- End Carousel Inner -->
+				        
+				    </div>
+				    <!-- End Carousel -->
+				</div>
+          	</div>
+          	<!--
+          	<p style="text-align:center"><br>Find more about <strong>BUBW Conference</strong> and detail description about <strong>BUBW Indonesia</strong></p>
 			<div class="row grid">
 				<div class="col-md-4 col-sm-4 ">
 					<figure class="effect-goliath">
@@ -323,7 +434,7 @@ $(document).ready(function() {
 						</figcaption>			
 					</figure>
 				</div>
-			</div>
+			</div>-->
 		</div>
     </div> 
 	
@@ -337,7 +448,7 @@ $(document).ready(function() {
 		<div id="copyright"><a href="http://www.1stwebdesigner.com/">Copyright 1stwebdesigner.com </a></div>  
 		</div>  -->
 		<div class="container" style="text-align:center">
-			<h1 style="color:#fff">Join Us!</h1>
+			<h1 style="color:#fff">Registration</h1>
 			<p class="quotes" style="text-align:center; color:#fff">Register yourself for the greatest experience among the best from generation around the world! Click the Register button, and then fill the requested form.</p>	
 			<a href="#myModal" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; width:30%" role="button" target="_blank">REGISTER NOW!</a>
 			
@@ -416,6 +527,15 @@ $(document).ready(function() {
 			    $('#custom_carousel').on('slide.bs.carousel', function (evt) {
 			      $('#custom_carousel .controls li.active').removeClass('active');
 			      $('#custom_carousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
+			    })
+			});
+		</script>
+
+		<script>
+			$(document).ready(function(ev){
+			    $('#custom_carousel_1').on('slide.bs.carousel', function (evt) {
+			      $('#custom_carousel_1 .controls li.active').removeClass('active');
+			      $('#custom_carousel_1 .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
 			    })
 			});
 		</script>
