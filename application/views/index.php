@@ -289,7 +289,7 @@ $(document).ready(function() {
 				                <div class="container-fluid">
 				                    <div class="row">
 				                        <div class="col-md-6 col-sm-12">
-				                        	<h4>Call for Paper</h4>
+				                        	<h3>Call for Paper</h3>
 				                        	<p>Grand theme: <strong>Better Understanding</strong> as a Grand Tool to Face the World and South East Asia Challenges</p>
 				                        	<p>
 				                        		<br/>1.	Subtheme: <strong>Leadership Skills and Good Management</strong> in the age of the global village
@@ -299,7 +299,7 @@ $(document).ready(function() {
 				                        	<p>Each paper is original work without any issues of plagiarism.</p>
 	                        			</div>
 	                        			<div class="col-md-6 col-sm-12">
-				                        	<h4>International Conference</h4>
+				                        	<h3>International Conference</h3>
 				                        	<p>Better Understanding for Better World Program will be held five days (2nd of December-6th of December 2015) in Yogyakarta, Indonesia. All participants will have the conference at the hotel. The conference will be delivered by expert speakers from all four aspects (Global Citizenship, Leadership, Conflict Resolution, and Interfaith) along with mini simulation and discussion. Participants will also get chance to visit and enjoy religion and cultural sites of Yogyakarta.</p>
 				                        	<p>Grand theme: <strong>Better Understanding</strong> as a Grand Tool to Face the World and South East Asia Challenges.</p>
 				                        	<p>
@@ -527,15 +527,6 @@ $(document).ready(function() {
 			    $('#custom_carousel').on('slide.bs.carousel', function (evt) {
 			      $('#custom_carousel .controls li.active').removeClass('active');
 			      $('#custom_carousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
-			    })
-			});
-		</script>
-
-		<script>
-			$(document).ready(function(ev){
-			    $('#custom_carousel_1').on('slide.bs.carousel', function (evt) {
-			      $('#custom_carousel_1 .controls li.active').removeClass('active');
-			      $('#custom_carousel_1 .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
 			    })
 			});
 		</script>
