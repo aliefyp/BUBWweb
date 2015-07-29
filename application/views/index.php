@@ -450,7 +450,7 @@ $(document).ready(function() {
 		<div class="container" style="text-align:center">
 			<h1 style="color:#fff">Registration</h1>
 			<p class="quotes" style="text-align:center; color:#fff">Register yourself for the greatest experience among the best from generation around the world! Click the Register button, and then fill the requested form.</p>	
-			<a href="#myModal" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; width:30%" role="button" target="_blank">REGISTER NOW!</a>
+			<button data-toggle="modal" data-target="#myModal" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; width:30%" area-hidden="true" >REGISTER NOW! </button>
 			
 			<!-- I got these buttons from simplesharebuttons.com -->
 			<div id="share-buttons">
@@ -499,14 +499,22 @@ $(document).ready(function() {
 	    <div class="modal-content">
 	      <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal">&times;</button>
-	        <h4 class="modal-title">Modal Header</h4>
+	        <h4 class="modal-title">Register Now!</h4>
 	      </div>
-	      <div class="modal-body">
-	        <p>Some text in the modal.</p>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	      </div>
+	      <form>
+		      <div class="modal-body">
+		        <p>Name</p>
+		        <input class="form-control">
+		        <p>University</p>
+		        <input class="form-control">
+		        <p>Major</p>
+		        <input class="form-control">
+		      </div>
+		      <div class="modal-footer">
+		      	<button type="button" class="btn btn-primary pull-left" data-dismiss="modal">Register</button>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		  </form>
 	    </div>
 
 	  </div>
