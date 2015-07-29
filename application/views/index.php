@@ -153,7 +153,8 @@ $(document).ready(function() {
 	    <div class="container slide">
 	      <div class="row">
 	        <div class="col-md-6 col-sm-12" style="text-align:center">
-	          <iframe width="500" height="260" src="https://www.youtube.com/embed/xkDDESlO5dM" frameborder="0" allowfullscreen></iframe>
+	          <!-- <iframe width="500" height="260" src="https://www.youtube.com/embed/xkDDESlO5dM" frameborder="0" allowfullscreen></iframe>-->
+	          <embed width="500" height="260" src="https://www.youtube.com/embed/xkDDESlO5dM">
 	          <img src="assets/img/shadow.png" alt="Responsive image" class="img-responsive shadow ">
 	        </div>
 	        <div class="col-md-6 col-sm-12">
@@ -504,9 +505,9 @@ $(document).ready(function() {
 	      <form>
 		      <div class="modal-body">
 		        <p>Name</p>
-		        <input class="form-control">
+		        <input class="form-control"><br>
 		        <p>University</p>
-		        <input class="form-control">
+		        <input class="form-control"><br>
 		        <p>Major</p>
 		        <input class="form-control">
 		      </div>
