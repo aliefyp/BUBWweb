@@ -17,9 +17,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
+<<<<<<< HEAD
 $config['base_url'] = 'http://localhost:8080/bubw/index.php';
 $config['site_url'] = 'http://localhost:8080/bubw';
 
+=======
+$config['base_url'] = 'http://localhost:8080/bubw';
+$config['site_url'] = 'http://localhost/BUBWweb';
+>>>>>>> origin/master
 /*
 |--------------------------------------------------------------------------
 | Index File

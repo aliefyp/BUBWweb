@@ -71,15 +71,22 @@
 		</div> 
     </div> 
 
+<<<<<<< HEAD
 <!--     <div id="smallslide">
 		<h3 style="margin:0;">Sponsored by:</h3>
+=======
+    <div id="smallslide">
+		<h3 style="margin:0;">Sponsored by: <a href="http://www.thinkerstudio.info"><img height="70px" src="assets/img/t_bunder.png"></a></h3>
+
+>>>>>>> origin/master
 	</div>
  -->
 	<div id="slide2">
 	    <div class="container slide">
 	      <div class="row">
 	        <div class="col-md-6 col-sm-12" style="text-align:center">
-	          <iframe width="500" height="260" src="https://www.youtube.com/embed/xkDDESlO5dM" frameborder="0" allowfullscreen></iframe>
+	          <!-- <iframe width="500" height="260" src="https://www.youtube.com/embed/xkDDESlO5dM" frameborder="0" allowfullscreen></iframe>-->
+	          <embed width="500" height="260" src="https://www.youtube.com/embed/xkDDESlO5dM">
 	          <img src="assets/img/shadow.png" alt="Responsive image" class="img-responsive shadow ">
 	        </div>
 	        <div class="col-md-6 col-sm-12">
@@ -504,7 +511,46 @@
 		<div class="container" style="text-align:center">
 			<h1 style="color:#fff">Registration</h1>
 			<p class="quotes" style="text-align:center; color:#fff">Register yourself for the greatest experience among the best from generation around the world! Click the Register button, and then fill the requested form.</p>	
+<<<<<<< HEAD
 			<a  href="<?php echo base_url();?>welcome/register" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; min-width:30%; width:auto;" role="button" target="_blank">REGISTER NOW!</a>
+=======
+			<button data-toggle="modal" data-target="#myModal" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; width:30%" area-hidden="true" >REGISTER NOW! </button>
+			
+			<!-- I got these buttons from simplesharebuttons.com -->
+			<div id="share-buttons">
+
+			    <!-- Email -->
+			    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+			        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+			    </a>
+			 
+			    <!-- Facebook -->
+			    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+			    </a>
+			    
+			    <!-- Google+ -->
+			    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+			    </a>
+			    
+			    <!-- LinkedIn -->
+			    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+			    </a>
+			    
+			    <!-- Tumblr-->
+			    <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
+			    </a>
+			     
+			    <!-- Twitter -->
+			    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;name=Simple Share Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+			        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+			    </a>
+			    
+			</div>
+>>>>>>> origin/master
 
 		</div>
 		
@@ -518,14 +564,22 @@
 	    <div class="modal-content">
 	      <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal">&times;</button>
-	        <h4 class="modal-title">Modal Header</h4>
+	        <h4 class="modal-title">Register Now!</h4>
 	      </div>
-	      <div class="modal-body">
-	        <p>Some text in the modal.</p>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	      </div>
+	      <form>
+		      <div class="modal-body">
+		        <p>Name</p>
+		        <input class="form-control"><br>
+		        <p>University</p>
+		        <input class="form-control"><br>
+		        <p>Major</p>
+		        <input class="form-control">
+		      </div>
+		      <div class="modal-footer">
+		      	<button type="button" class="btn btn-primary pull-left" data-dismiss="modal">Register</button>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		  </form>
 	    </div>
 
 	  </div>
