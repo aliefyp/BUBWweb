@@ -5,86 +5,8 @@
 	product: Website BUBW Indonesia
 -->
 <html lang="en">
-  <head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>BUBW Indonesia</title>
-		<link rel="shortcut icon" href="assets/img/favicon.png">
-		<!--New Page Transition
-		<link rel="stylesheet" type="text/css" href="assets/newpage/css/component.css" />
-		<script src="assets/newpage/js/modernizr.custom.js"></script>-->
-
-		<!--Bootstrap-->
-		<link rel="stylesheet" href="assets/css/bootstrap.css"/>
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-		
-		
-
-		<!--Hover Effect-->
-		<link rel="stylesheet" type="text/css" href="assets/hover/css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="assets/hover/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="assets/hover/css/set2.css" />
-		<link rel="stylesheet" type="text/css" href="assets/hover/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
-		
-		<!--Parallax-->
-		<link rel="stylesheet" href="assets/css/style.css"/>
-		
-		<!--Custom-->
-		<link rel="stylesheet" href="assets/css/custom.css"/>
-		
-		<!--JQuery-->
-		<script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
-		<!--Fonts-->
-		<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
-		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-
-
-		<!-- Start WOWSlider.com HEAD section -->
-		<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-		<script type="text/javascript" src="engine1/jquery.js"></script>
-		<!-- End WOWSlider.com HEAD section -->
-
-
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-	<script>
-   
-<!----- JQUERY FOR SLIDING NAVIGATION --->   
-$(document).ready(function() {
-  $('a[href*=#]').each(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-    && location.hostname == this.hostname
-    && this.hash.replace(/#/,'') ) {
-      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-       if ($target) {
-         var targetOffset = $target.offset().top;
-
-<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
-         $(this).click(function() {
-            $("#nav li a").removeClass("active");
-            $(this).addClass('active');
-           $('html, body').animate({scrollTop: targetOffset}, 1000);
-           return false;
-         });
-      }
-    }
-  });
-
-});
-
-
-</script>
-
-
- </head> 
+<?php 
+	$this->load->view('head') ?>
 	
 <body>
 <!-- LINK BACK TO THE TUTORIAL-->  
@@ -140,15 +62,19 @@ $(document).ready(function() {
 <!-- SLIDES START -->   
 	<div id="slide1">
 		<div class="container">
-			<img class="section img-responsive" alt="Responsive image" src="assets/img/logo.png">
-	        <h4 style="text-align:center">“Held by the BUBW-Indonesia Committee of Civilizations Exchange and Cooperation Foundation (CECF) and proudly hosted by Bina Antarbudaya Chapter Yogyakarta”</h4>
+			<div>
+				<img class="section img-responsive" alt="Responsive image" style="width:25%; top:45%" src="assets/img/logo.png">
+			</div>
+	        <div class="section" style="text-align:center; width:50%; top:75%">
+        		<h4 style=" color:#fff">“Held by the BUBW-Indonesia Committee of Civilizations Exchange and Cooperation Foundation (CECF) and proudly hosted by Bina Antarbudaya Chapter Yogyakarta”</h4>
+        	</div>
 		</div> 
     </div> 
 
-    <div id="smallslide">
+<!--     <div id="smallslide">
 		<h3 style="margin:0;">Sponsored by:</h3>
 	</div>
-
+ -->
 	<div id="slide2">
 	    <div class="container slide">
 	      <div class="row">
@@ -265,7 +191,7 @@ $(document).ready(function() {
     </div> 
 	
 	
-	<div id="slide4" style="height:120vh">
+	<div id="slide4">
 		<div class="container">
 			<div class="page-header">
 			    <h2>BUBW Indonesia</h2>
@@ -315,14 +241,140 @@ $(document).ready(function() {
 				                <div class="container-fluid">
 				                    <div class="row">
 				                        <div class="col-md-12">
-				                            <h2>BUBW's Objectives</h2>
-				                            <ul style="font-size:14px; color:#777">
-				                            	<li>Facilitate mutual understanding and appreciation between students from diverse regional, economic, social, religious, cultural and ethnic backgrounds</li>
-				                            	<li>Learn about and discuss the practice of religion and faith in a pluralistic society with the objective of promoting tolerance, mutual respect, and an awareness of common values</li>
-				                            	<li>Discuss the danger of religious extremism, fanaticism or ethnic nationalism, which has historically been the recipe for wars and conflicts in many civilizations</li>
-				                            	<li>Introduce various aspects of leadership in the age of a "global village," including those involving business and entrepreneurship</li>
-				                            	<li>Forge ties of friendship between the participants, who are without doubt, the future leaders of tomorrow</li>
-				                            </ul>
+				                            <h3>Rundown</h3>
+				                            <div class="container">
+											    <div class="qa-message-list" id="wallmessages">
+													<div class="message-item" id="m5">
+														<div class="message-inner">
+															<div class="message-head clearfix">
+																<div class="user-detail">
+																	<h5 class="handle">First Day</h5>
+																	<div class="post-meta">
+																		<div class="asker-meta">
+																			<span class="qa-message-what"></span>
+																			<span class="qa-message-when">
+																				<span class="qa-message-when-data">Dec 2, 2015</span>
+																			</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="qa-message-content">
+																<ul>
+																	<li>Participants arrive at Yogyakarta</li>
+																	<li>Orientation at the hotel</li>
+																	<li>Gala Dinner and Welcoming Ceremony</li>
+															</div>
+													</div></div>
+													<div class="message-item" id="m4">
+														<div class="message-inner">
+															<div class="message-head clearfix">
+																<div class="user-detail">
+																	<h5 class="handle">Second Day</h5>
+																	<div class="post-meta">
+																		<div class="asker-meta">
+																			<span class="qa-message-what"></span>
+																			<span class="qa-message-when">
+																				<span class="qa-message-when-data">Dec 3, 2015</span>
+																			</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="qa-message-content">
+																<ul>
+																	<li>Conference at the hotel
+																		<p>Sub Theme:
+																			<ul>
+																				<li>Global Citizenship</li>
+																				<li>Leadership</li>
+																				<li>Conflict Resolution</li>
+																			</ul>
+																		</p>
+																	</li>
+																	<li>Paper presentation from 10 best papers</li>
+																	<li>Mini Simulation and Discussion</li>
+																	<li>Sendratari Ramayana Performance at Prambanan Temple</li>
+															</div>
+													</div></div>
+													<div class="message-item" id="m3">
+														<div class="message-inner">
+															<div class="message-head clearfix">
+																<div class="user-detail">
+																	<h5 class="handle">Third Day</h5>
+																	<div class="post-meta">
+																		<div class="asker-meta">
+																			<span class="qa-message-what"></span>
+																			<span class="qa-message-when">
+																				<span class="qa-message-when-data">Dec 4, 2015</span>
+																			</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="qa-message-content">
+																<ul>
+																	<li>Interfaith session. Visit and discuss about different religion in Indonesia
+																		<ul>
+																			<li>Pura (Hindu)</li>
+																			<li>Masjid (Moslem)</li>
+																			<li>Church (Christian)</li>
+																			<li>Vihara (Budha)</li>
+																		</ul>
+																	</li>
+																	<li>Discussion Panel</li>
+																	<li>Explore Malioboro Street</li>
+															</div>
+													</div></div>
+													<div class="message-item" id="m2">
+														<div class="message-inner">
+															<div class="message-head clearfix">
+																<div class="user-detail">
+																	<h5 class="handle">Fourth Day</h5>
+																	<div class="post-meta">
+																		<div class="asker-meta">
+																			<span class="qa-message-what"></span>
+																			<span class="qa-message-when">
+																				<span class="qa-message-when-data">Dec 5, 2015</span>
+																			</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="qa-message-content">
+																<ul>
+																	<li>Cultural Visit
+																		<ul>
+																			<li>Borobudur Temple</li>
+																			<li>Batik Production</li>
+																		</ul>
+																	</li>
+																	<li>Banquet and Cultural Night</li>
+															</div>
+													</div></div>
+													<div class="message-item" id="m1">
+														<div class="message-inner">
+															<div class="message-head clearfix">
+																<div class="user-detail">
+																	<h5 class="handle">Fifth Day</h5>
+																	<div class="post-meta">
+																		<div class="asker-meta">
+																			<span class="qa-message-what"></span>
+																			<span class="qa-message-when">
+																				<span class="qa-message-when-data">Dec 6, 2015</span>
+																			</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="qa-message-content">
+																<ul>
+																	<li>Closing Ceremony</li>
+																	<li>Participants depart to their home</li>
+															</div>
+													</div></div>		
+												</div>
+											</div>
 				                        </div>
 				                    </div>
 				                </div>            
@@ -331,6 +383,8 @@ $(document).ready(function() {
 				                <div class="container-fluid">
 				                    <div class="row">
 				                        <div class="col-md-12">
+				                        	<img src="assets/img/sponsor1.png" style="width:70%" />
+					                        <h3>AFS-Bina Antarbudaya Chapter Yogyakarta</h3>						
 				                        	<p>Bina Antarbudaya is a nonprofit, volunteer-based organization and is a partner of AFS Intercultural Program. This organization is fully committed in building a better world through youth exchange program with intercultural understanding as its base. Bina Antarbudaya aims to prepare future leaders with high awareness, intercultural understanding, and environmental consciousness. Through interaction with the citizens of the world, the participants learn to share, communicate, and appreciate differences. In the future, the participants are prepared to be leaders who can value diversity, elevate the importance of peace and friendship, and have the ability to build positive relationship and understanding between cultures and countries. With more than fifty years of experience in intercultural understanding, Bina Antarbudaya has sent more than 3,000 Indonesian students to various countries and has accepted more than 1,500 foreign students to live and learn in Indonesia.</p>
 				                        	<p>Bina Antarbudaya Chapter Yogyakarta is proudly hosting BUBW-Indonesa as it will be held in Yogyakarta, Indonesia. With trusted organization assisting BUBW Committee itself to organize the event, BUBW-Indonesia will be a promising project event to attend and participate in.</p>
 				                        	<p>See more at: <a href="http://www.bina-antarbudaya.or.id/en/pages/tentang-bina-antarbudaya.html#sthash.Yg2Fhyw2.dpuf" target="_blank">http://www.bina-antarbudaya.or.id/en/pages/tentang-bina-antarbudaya.html#sthash.Yg2Fhyw2.dpuf</a></p>
@@ -450,42 +504,7 @@ $(document).ready(function() {
 		<div class="container" style="text-align:center">
 			<h1 style="color:#fff">Registration</h1>
 			<p class="quotes" style="text-align:center; color:#fff">Register yourself for the greatest experience among the best from generation around the world! Click the Register button, and then fill the requested form.</p>	
-			<a href="#myModal" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; width:30%" role="button" target="_blank">REGISTER NOW!</a>
-			
-			<!-- I got these buttons from simplesharebuttons.com -->
-			<div id="share-buttons">
-
-			    <!-- Email -->
-			    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
-			        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
-			    </a>
-			 
-			    <!-- Facebook -->
-			    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
-			        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-			    </a>
-			    
-			    <!-- Google+ -->
-			    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
-			        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
-			    </a>
-			    
-			    <!-- LinkedIn -->
-			    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
-			        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
-			    </a>
-			    
-			    <!-- Tumblr-->
-			    <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
-			        <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
-			    </a>
-			     
-			    <!-- Twitter -->
-			    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;name=Simple Share Buttons&amp;hashtags=simplesharebuttons" target="_blank">
-			        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
-			    </a>
-			    
-			</div>
+			<a  href="<?php echo base_url();?>welcome/register" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; min-width:30%; width:auto;" role="button" target="_blank">REGISTER NOW!</a>
 
 		</div>
 		
