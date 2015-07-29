@@ -146,7 +146,8 @@ $(document).ready(function() {
     </div> 
 
     <div id="smallslide">
-		<h3 style="margin:0;">Sponsored by:</h3>
+		<h3 style="margin:0;">Sponsored by: <a href="http://www.thinkerstudio.info"><img height="70px" src="assets/img/t_bunder.png"></a></h3>
+
 	</div>
 
 	<div id="slide2">
