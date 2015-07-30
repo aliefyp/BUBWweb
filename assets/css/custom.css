@@ -111,7 +111,7 @@ img.navigasi {
 
 body {
   font-family:  'Lato', helvetica, arial;
-  color: white;
+  color: #555;
   background-color: #fff
 }
 
@@ -147,7 +147,7 @@ h4.grid {
 
 p {
   font-size: 14px;
-  color: #777;    
+  color: #555;    
 }
 
 ul, li {
@@ -586,6 +586,13 @@ img.thumb {
 
 
 /*TIMELINE*/
+
+#wallmessages {
+  width: 45%;
+  padding: 20px 0 20px 0;
+}
+
+
 .message-item {
 margin-bottom: 25px;
 margin-left: 40px;
@@ -692,3 +699,115 @@ font-size: 12px;
 line-height: 22px;
 }
 
+
+
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 30px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #fff;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+p.testi {
+  color: #fff;
+}
+
+
+blockquote>p>small {
+  color: white;
+  font-size: 16px;
+}
+
+
+
+
+/*FOOTER*/
+.cuadro_intro_hover{
+        padding: 0px;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+  }
+  .cuadro_intro_hover:hover .caption{
+    opacity: 1;
+    transform: translateY(-150px);
+    -webkit-transform:translateY(-150px);
+    -moz-transform:translateY(-150px);
+    -ms-transform:translateY(-150px);
+    -o-transform:translateY(-150px);
+  }
+  .cuadro_intro_hover img{
+    z-index: 4;
+  }
+  .cuadro_intro_hover .caption{
+    position: absolute;
+    top:150px;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+    width: 100%;
+  }
+  .cuadro_intro_hover .blur{
+    background-color: rgba(0,0,0,0.7);
+    height: 300px;
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+  }
+  .cuadro_intro_hover .caption-text{
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    height: 300px;
+    text-align: center;
+    top:-20px;
+    width: 100%;
+  }
+
+  footer {
+    background-color: #fff;
+  }

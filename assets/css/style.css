@@ -136,15 +136,15 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 /*= SLIDES STYLING
 --------------------------------------------------------*/
 
-#slide1, #slide2{ width: 100%; }
-#slide1{
+#slide0, #slide2{ width: 100%; }
+#slide0{
 	background:url('../img/bkg.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 95vh;
 	background-size: cover;
 }
 
-#slide2{
+#slide1, #slide2{
 	/*background: url('../img/symphony.png');*/
 	background-color: #fff;
 	color: #999;
@@ -154,15 +154,15 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 
-#slide2-2{
+#slideA{
 	background: url(../img/img2.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
 	padding: 70px;	
 	background-size: cover;
-	height: 40vh;
+	min-height: 100vh;
 }
 
-#slide3{
+#slideB{
 	background: url(../img/img1.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
 	padding: 70px;	
@@ -171,15 +171,15 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	min-height: 40vh;
 }
 
-#slide4{
+#slide3{
 	background-color: #fff;
 	color: #333333;
 	padding: 100px 0;
 	height: auto;
-	min-height: 100vh;
+	min-height: 120vh;
 }
 
-#slide5{
+#slide4{
 	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
 	height: 200px;
 	margin: 0 auto;
@@ -196,7 +196,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 
-#slide2, #slide5 {
+#slide2, #slide4 {
 	height: auto;
 	min-height: 100vh;
 }

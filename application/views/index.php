@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#slide1">
+                <a class="navbar-brand" href="#slide0">
                     <h2 class="logo">BUBW<span><p>&nbspI N D O N E S I A</p></span></h2>
                 </a>
             </div>
@@ -35,19 +35,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav pull-right">
                     <li>
-                        <a href="#slide2" title="Greetings">Greetings</a>
+                        <a href="#slide1" title="Greetings">Greetings</a>
                     </li>
                     <li>
-                        <a href="#slide2ext" title="About">About</a>
+                        <a href="#slide2" title="About">About</a>
                     </li>
                     <li>
-                        <a href="#slide4" title="BUBW Indonesia">BUBW Indonesia</a>
+                        <a href="#slide3" title="BUBW Indonesia">BUBW Indonesia</a>
                     </li>
                     <li>
-                        <a href="#slide5" title="Registration">Registration</a>
+                        <a href="#slide4" title="Registration">Registration</a>
                     </li>
                     <li>
-                        <a href="#slide5" title="FAQ">FAQ</a>
+                        <a href="#slide4" title="FAQ">FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +60,7 @@
 
 
 <!-- SLIDES START -->   
-	<div id="slide1">
+	<div id="slide0">
 		<div class="container">
 			<div>
 				<img class="section img-responsive" alt="Responsive image" style="width:25%; top:45%" src="assets/img/logo.png">
@@ -71,7 +71,6 @@
 		</div> 
     </div> 
 
-<<<<<<< HEAD
 <!--     <div id="smallslide">
 		<h3 style="margin:0;">Sponsored by:</h3>
 =======
@@ -81,7 +80,7 @@
 >>>>>>> origin/master
 	</div>
  -->
-	<div id="slide2">
+	<div id="slide1">
 	    <div class="container slide">
 	      <div class="row">
 	        <div class="col-md-6 col-sm-12" style="text-align:center">
@@ -99,7 +98,91 @@
 	    </div>	    
     </div> 
 
-    <div id="slide2-2">
+    <div id="slideA">
+		<section id="carousel">    				
+			<div class="container">
+				<h3 style="color:#fff">What do they say</h3>
+	            <div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+						  <!-- Carousel indicators -->
+		                  <ol class="carousel-indicators">
+						    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="5"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="6"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="7"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="8"></li>
+						  </ol>
+						  <!-- Carousel items -->
+						  <div class="carousel-inner">
+						    <div class="active item">
+		                        <div class="profile-circle" style="background-image: url('<?php echo base_url('')?>assets/img/testi1.jpg');"></div>
+						    	<blockquote>
+						    		<p class="testi">BUBW is a really great program, the program promotes world peace and how young generations should take action & involve in creating the sustainable world in terms of religion and cultural differences. I feel so lucky because I was a participant of the event, I would say it inspired me to appreciate the world diversity and learn the culture of other participants as well.</p>
+						    		<p><small>Gebby Oktapuri, BUBW Baltimore 2010 from Indonesia</small></p>
+						    	</blockquote>	
+						    </div>
+						    <div class="item">
+		                        <div class="profile-circle" style="background-image: url('<?php echo base_url('')?>assets/img/testi2.jpg');"></div>
+						    	<blockquote>
+						    		<p class="testi">BUBW made me believe that all human being with various faiths can live side by side,respect each other, abolish hatred, and discrimination. BUBW not only teach me to tolerant, but also internalize the value of tolerance itself in a pleasant manner and can be accepted well. </p>
+						    		<p><small>Farihah Nishfah Lailah, BUBW Florida 2013 from Indonesia</small></p>
+						    	</blockquote>
+						    </div>
+						    <div class="item">
+		                        <div class="profile-circle" style="background-image: url('<?php echo base_url('')?>assets/img/testi3.jpg');"></div>
+						    	<blockquote>
+						    		<p class="testi">I first came to the conference expecting myself to gain more knowledge and understanding about the religions and what I could to make things better (as expected from the name of the conference itself). It was not long after my arrival in San Diego that all my perceptions and goals changed. As soon as I landed, I met others exchange students from all over the world (literally). They are all so welcoming and friendly and anything that I had never imagined before.  The more I looked at them, the more I realized that we were not so different, we were just a bunch of kid in a foreign country trying to make things better. We didn’t care what it would take for us to reach our goal, but we were all sure that BUBW is one of our biggest stepping-stone.</p>
+						    		<p class="testi">There we were, all together, different races, country origin, religions, beliefs, thoughts and languages in a conference that opened our eyes to what more to see in the world. BUBW thought us to see more, to know more, to discover more, and to do more. It was an out-of-the-world experience that I would never missed or regret.</p>
+						    		<p class="testi">Those people that I met as stranger now are more than friends for me. They are the fellow leaders of tomorrow!</p>
+						    		<p><small>Michelle Valeria, BUBW San Diego 2013 from Indonesia</small></p>
+						    	</blockquote>
+						    </div>
+						    <div class="item">
+		                        <div class="profile-circle" style="background-image: url('<?php echo base_url('')?>assets/img/testi4.jpg');"></div>
+						    	<blockquote>
+						    		<p class="testi">BUBW Conference is one out of many ways to learn about religious diversity. It is the most friendly way to get to know what you may have wondered for ages about other religion. Everything has its own explanation, and this BUBW conference will give you every information regarding that. So, dont even hesitate to come to the upcoming conference which will be held in Indonesia! You will be back home from the conference feeling easy and becoming more tolerance towards others, not to mention that you get to make new friends with cool people and be given lots of useful knowledge. Well, in other word, this BUBW conference is the whole package of awesomeness! Come and experience it yourself is a must though, best of luck!</p>
+						    		<p class="testi"><small>Ratu Nadhirah El Sarah, BUBW Baltimore 2013 from Indonesia</small></p>
+						    	</blockquote>
+						    </div>
+						    <div class="item">
+		                        <div class="profile-circle" style="background-image: url('<?php echo base_url('')?>assets/img/testi5.jpg');"></div>
+						    	<blockquote>
+						    		<p class="testi">This is super good program, they introduced us about the beauty of differences, as a global citizen, as a 'human' not moslem, jewish, christian, or else. This program shows us that maybe society give bad image about one religion or race or whatever the box is,  too much and because we actually never know one another so we built the hatred itself using those image and finally when we met the actual person of the religion, race, or nationality and learn about them we found that every human kind is just a human, maybe there's a bad guy or good guy with religion but it's not the religion fault but it's human. So, after the program I had more understanding about the differences and I treat people better.</p>
+						    		<p><small>Ikhlas, BUBW San Diego 2010 from Indonesia</small></p>
+						    	</blockquote>
+						    </div>
+						    <div class="item">
+		                        <div class="profile-circle" style="background-image: url('<?php echo base_url('')?>assets/img/testi6.jpg');"></div>
+						    	<blockquote>
+						    		<p class="testi">This conference has not only broadened my perspective about different faith, but also help me building a network with people from different background and culture. It seems simple, but the effect last longer</p>
+						    		<p><small>Dewa Ayu Putu Prasti Udayani, BUBW San Diego 2010 from Indonesia</small></p>
+						    	</blockquote>
+						    </div>
+						    <div class="item">
+		                        <div class="profile-circle" style="background-image: url('<?php echo base_url('')?>assets/img/testi7.jpg');"></div>
+						    	<blockquote>
+						    		<p class="testi">BUBW is not merely an ordinary conference which meets people from different origins to promote understanding, but it is also a medium for the participant to be awaken from the illusion of the world and strive to make a "real" positive change in the means of physical and mental in this world.</p>
+						    		<p><small>Witor, BUBW Florida 2013 from Indonesia</small></p>
+						    	</blockquote>
+						    </div>
+						    <div class="item">
+		                        <div class="profile-circle" style="background-image: url('<?php echo base_url('')?>assets/img/testi8.jpg');"></div>
+						    	<blockquote>
+						    		<p class="testi">The best way to create peace is by having a good understanding about others. Differences are beautiful if we can see it through different perspectives. BUBW conference has opened my mind about the role of youth in creating world peace. We can avoid and solve conflicts if we have better understanding and see them from another side. I met many students from different countries, religions, and cultures. Although we are different, we share common identity as a human and we also have same dream, living in a world with peace. I’m so thankful that I had the chance to attend such a great experience. </p>
+						    		<p><small>Yanti Kusmiati, BUBW San Diego 2010 from Indonesia</small></p>
+						    	</blockquote>
+						    </div>
+						  </div>
+						</div>
+					</div>							
+				</div>
+			</div>
+		</section>
     </div> 
 
     <div id="slide2">
@@ -188,7 +271,7 @@
     </div> 
 	
 	
-   <div id="slide3">
+   <div id="slideB">
 		<div class="container">
 			<div class="col-md-12">
 				<h1 style="font-size:36px; color:white">D E C E M B E R&nbsp&nbsp2 0 1 5</h1>
@@ -198,7 +281,7 @@
     </div> 
 	
 	
-	<div id="slide4">
+	<div id="slide3">
 		<div class="container">
 			<div class="page-header">
 			    <h2>BUBW Indonesia</h2>
@@ -233,7 +316,7 @@
 	                        			</div>
 	                        			<div class="col-md-6 col-sm-12">
 				                        	<h3>International Conference</h3>
-				                        	<p>Better Understanding for Better World Program will be held five days (2nd of December-6th of December 2015) in Yogyakarta, Indonesia. All participants will have the conference at the hotel. The conference will be delivered by expert speakers from all four aspects (Global Citizenship, Leadership, Conflict Resolution, and Interfaith) along with mini simulation and discussion. Participants will also get chance to visit and enjoy religion and cultural sites of Yogyakarta.</p>
+				                        	
 				                        	<p>Grand theme: <strong>Better Understanding</strong> as a Grand Tool to Face the World and South East Asia Challenges.</p>
 				                        	<p>
 				                        		<br/>1.	Subtheme: <strong>Leadership Skills and Good Management</strong> in the age of the global village
@@ -249,139 +332,8 @@
 				                    <div class="row">
 				                        <div class="col-md-12">
 				                            <h3>Rundown</h3>
-				                            <div class="container">
-											    <div class="qa-message-list" id="wallmessages">
-													<div class="message-item" id="m5">
-														<div class="message-inner">
-															<div class="message-head clearfix">
-																<div class="user-detail">
-																	<h5 class="handle">First Day</h5>
-																	<div class="post-meta">
-																		<div class="asker-meta">
-																			<span class="qa-message-what"></span>
-																			<span class="qa-message-when">
-																				<span class="qa-message-when-data">Dec 2, 2015</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="qa-message-content">
-																<ul>
-																	<li>Participants arrive at Yogyakarta</li>
-																	<li>Orientation at the hotel</li>
-																	<li>Gala Dinner and Welcoming Ceremony</li>
-															</div>
-													</div></div>
-													<div class="message-item" id="m4">
-														<div class="message-inner">
-															<div class="message-head clearfix">
-																<div class="user-detail">
-																	<h5 class="handle">Second Day</h5>
-																	<div class="post-meta">
-																		<div class="asker-meta">
-																			<span class="qa-message-what"></span>
-																			<span class="qa-message-when">
-																				<span class="qa-message-when-data">Dec 3, 2015</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="qa-message-content">
-																<ul>
-																	<li>Conference at the hotel
-																		<p>Sub Theme:
-																			<ul>
-																				<li>Global Citizenship</li>
-																				<li>Leadership</li>
-																				<li>Conflict Resolution</li>
-																			</ul>
-																		</p>
-																	</li>
-																	<li>Paper presentation from 10 best papers</li>
-																	<li>Mini Simulation and Discussion</li>
-																	<li>Sendratari Ramayana Performance at Prambanan Temple</li>
-															</div>
-													</div></div>
-													<div class="message-item" id="m3">
-														<div class="message-inner">
-															<div class="message-head clearfix">
-																<div class="user-detail">
-																	<h5 class="handle">Third Day</h5>
-																	<div class="post-meta">
-																		<div class="asker-meta">
-																			<span class="qa-message-what"></span>
-																			<span class="qa-message-when">
-																				<span class="qa-message-when-data">Dec 4, 2015</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="qa-message-content">
-																<ul>
-																	<li>Interfaith session. Visit and discuss about different religion in Indonesia
-																		<ul>
-																			<li>Pura (Hindu)</li>
-																			<li>Masjid (Moslem)</li>
-																			<li>Church (Christian)</li>
-																			<li>Vihara (Budha)</li>
-																		</ul>
-																	</li>
-																	<li>Discussion Panel</li>
-																	<li>Explore Malioboro Street</li>
-															</div>
-													</div></div>
-													<div class="message-item" id="m2">
-														<div class="message-inner">
-															<div class="message-head clearfix">
-																<div class="user-detail">
-																	<h5 class="handle">Fourth Day</h5>
-																	<div class="post-meta">
-																		<div class="asker-meta">
-																			<span class="qa-message-what"></span>
-																			<span class="qa-message-when">
-																				<span class="qa-message-when-data">Dec 5, 2015</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="qa-message-content">
-																<ul>
-																	<li>Cultural Visit
-																		<ul>
-																			<li>Borobudur Temple</li>
-																			<li>Batik Production</li>
-																		</ul>
-																	</li>
-																	<li>Banquet and Cultural Night</li>
-															</div>
-													</div></div>
-													<div class="message-item" id="m1">
-														<div class="message-inner">
-															<div class="message-head clearfix">
-																<div class="user-detail">
-																	<h5 class="handle">Fifth Day</h5>
-																	<div class="post-meta">
-																		<div class="asker-meta">
-																			<span class="qa-message-what"></span>
-																			<span class="qa-message-when">
-																				<span class="qa-message-when-data">Dec 6, 2015</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="qa-message-content">
-																<ul>
-																	<li>Closing Ceremony</li>
-																	<li>Participants depart to their home</li>
-															</div>
-													</div></div>		
-												</div>
-											</div>
+				                            <p>Better Understanding for Better World Program will be held five days (2nd of December-6th of December 2015) in Yogyakarta, Indonesia. All participants will have the conference at the hotel. The conference will be delivered by expert speakers from all four aspects (Global Citizenship, Leadership, Conflict Resolution, and Interfaith) along with mini simulation and discussion. Participants will also get chance to visit and enjoy religion and cultural sites of Yogyakarta.</p>
+				                            <button type="button" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; width:auto" data-toggle="modal" data-target="#rundown">VIEW RUNDOWN</button>
 				                        </div>
 				                    </div>
 				                </div>            
@@ -435,72 +387,11 @@
 				    <!-- End Carousel -->
 				</div>
           	</div>
-          	<!--
-          	<p style="text-align:center"><br>Find more about <strong>BUBW Conference</strong> and detail description about <strong>BUBW Indonesia</strong></p>
-			<div class="row grid">
-				<div class="col-md-4 col-sm-4 ">
-					<figure class="effect-goliath">
-						<img src="assets/img/about1.png" alt="about1"/>
-						<figcaption>
-							<p>When Goliath comes out, you should run.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-4 col-sm-4 ">
-					<figure class="effect-goliath">
-						<img src="assets/img/about2.png" alt="about2"/>
-						<figcaption>
-							<p>When Goliath comes out, you should run.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-4 col-sm-4 ">
-					<figure class="effect-goliath">
-						<img src="assets/img/about3.png" alt="about3"/>
-						<figcaption>
-							<p>When Goliath comes out, you should run.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-				</div>
-			</div>
-
-			<div class="row grid">
-				<div class="col-md-4 col-sm-4 ">
-					<figure class="effect-goliath">
-						<img src="assets/img/about4.png" alt="about4"/>
-						<figcaption>
-							<p>When Goliath comes out, you should run.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-4 col-sm-4 ">
-					<figure class="effect-goliath">
-						<img src="assets/img/about5.png" alt="about5"/>
-						<figcaption>
-							<p>When Goliath comes out, you should run.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-4 col-sm-4 ">
-					<figure class="effect-goliath">
-						<img src="assets/img/about6.png" alt="about6"/>
-						<figcaption>
-							<p>When Goliath comes out, you should run.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-				</div>
-			</div>-->
 		</div>
     </div> 
 	
 	
-	<div id="slide5">
+	<div id="slide4">
 		<!-- <div class="content">
            <div class="quotes_container">
 		    <h3 class="quotes">“My idea of Christmas, whether old-fashioned or modern, is very simple: loving others. Come to think of it, why do we have to wait for Christmas to do that?” </h3>
@@ -514,72 +405,156 @@
 
 			<a  href="<?php echo base_url('');?>welcome/register" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; min-width:30%; width:auto;" role="button" target="_blank">REGISTER NOW!</a>
 
-			<button data-toggle="modal" data-target="#myModal" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; width:30%" area-hidden="true" >REGISTER NOW! </button>
+			<!-- <button data-toggle="modal" data-target="#myModal" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; width:30%" area-hidden="true" >REGISTER NOW! </button> -->
 			
-			<!-- I got these buttons from simplesharebuttons.com -->
-			<div id="share-buttons">
-
-			    <!-- Email -->
-			    <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
-			        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
-			    </a>
-			 
-			    <!-- Facebook -->
-			    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
-			        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-			    </a>
-			    
-			    <!-- Google+ -->
-			    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
-			        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
-			    </a>
-			    
-			    <!-- LinkedIn -->
-			    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank">
-			        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
-			    </a>
-			    
-			    <!-- Tumblr-->
-			    <a href="http://www.tumblr.com/share/link?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
-			        <img src="https://simplesharebuttons.com/images/somacro/tumblr.png" alt="Tumblr" />
-			    </a>
-			     
-			    <!-- Twitter -->
-			    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;name=Simple Share Buttons&amp;hashtags=simplesharebuttons" target="_blank">
-			        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
-			    </a>
-			    
-			</div>
->>>>>>> origin/master
-
 		</div>
 		
     </div> 
-
+    <?php 
+			$this->load->view('footer') ?>
 
     <!-- Modal Register -->
-	<div id="myModal" class="modal fade" role="dialog">
+	<div id="rundown" class="modal fade" role="dialog">
 	  <div class="modal-dialog">
 	    <!-- Modal content-->
 	    <div class="modal-content">
 	      <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal">&times;</button>
-	        <h4 class="modal-title">Register Now!</h4>
-	      </div>
-	      <form>
-		      <div class="modal-body">
-		        <p>Name</p>
-		        <input class="form-control"><br>
-		        <p>University</p>
-		        <input class="form-control"><br>
-		        <p>Major</p>
-		        <input class="form-control">
-		      </div>
-		      <div class="modal-footer">
-		      	<button type="button" class="btn btn-primary pull-left" data-dismiss="modal">Register</button>
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		      </div>
-		  </form>
+	        <h4 class="modal-title">General Rundown</h4>
+		</div>
+		<div class="container">
+			    <div class="qa-message-list" id="wallmessages">
+					<div class="message-item" id="m5">
+						<div class="message-inner">
+							<div class="message-head clearfix">
+								<div class="user-detail">
+									<h5 class="handle">First Day</h5>
+									<div class="post-meta">
+										<div class="asker-meta">
+											<span class="qa-message-what"></span>
+											<span class="qa-message-when">
+												<span class="qa-message-when-data">Dec 2, 2015</span>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="qa-message-content">
+								<ul>
+									<li>Participants arrive at Yogyakarta</li>
+									<li>Orientation at the hotel</li>
+									<li>Gala Dinner and Welcoming Ceremony</li>
+							</div>
+					</div></div>
+					<div class="message-item" id="m4">
+						<div class="message-inner">
+							<div class="message-head clearfix">
+								<div class="user-detail">
+									<h5 class="handle">Second Day</h5>
+									<div class="post-meta">
+										<div class="asker-meta">
+											<span class="qa-message-what"></span>
+											<span class="qa-message-when">
+												<span class="qa-message-when-data">Dec 3, 2015</span>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="qa-message-content">
+								<ul>
+									<li>Conference at the hotel
+										<p>Sub Theme:
+											<ul>
+												<li>Global Citizenship</li>
+												<li>Leadership</li>
+												<li>Conflict Resolution</li>
+											</ul>
+										</p>
+									</li>
+									<li>Paper presentation from 10 best papers</li>
+									<li>Mini Simulation and Discussion</li>
+									<li>Sendratari Ramayana Performance at Prambanan Temple</li>
+							</div>
+					</div></div>
+					<div class="message-item" id="m3">
+						<div class="message-inner">
+							<div class="message-head clearfix">
+								<div class="user-detail">
+									<h5 class="handle">Third Day</h5>
+									<div class="post-meta">
+										<div class="asker-meta">
+											<span class="qa-message-what"></span>
+											<span class="qa-message-when">
+												<span class="qa-message-when-data">Dec 4, 2015</span>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="qa-message-content">
+								<ul>
+									<li>Interfaith session. Visit and discuss about different religion in Indonesia
+										<ul>
+											<li>Pura (Hindu)</li>
+											<li>Masjid (Moslem)</li>
+											<li>Church (Christian)</li>
+											<li>Vihara (Budha)</li>
+										</ul>
+									</li>
+									<li>Discussion Panel</li>
+									<li>Explore Malioboro Street</li>
+							</div>
+					</div></div>
+					<div class="message-item" id="m2">
+						<div class="message-inner">
+							<div class="message-head clearfix">
+								<div class="user-detail">
+									<h5 class="handle">Fourth Day</h5>
+									<div class="post-meta">
+										<div class="asker-meta">
+											<span class="qa-message-what"></span>
+											<span class="qa-message-when">
+												<span class="qa-message-when-data">Dec 5, 2015</span>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="qa-message-content">
+								<ul>
+									<li>Cultural Visit
+										<ul>
+											<li>Borobudur Temple</li>
+											<li>Batik Production</li>
+										</ul>
+									</li>
+									<li>Banquet and Cultural Night</li>
+							</div>
+					</div></div>
+					<div class="message-item" id="m1">
+						<div class="message-inner">
+							<div class="message-head clearfix">
+								<div class="user-detail">
+									<h5 class="handle">Fifth Day</h5>
+									<div class="post-meta">
+										<div class="asker-meta">
+											<span class="qa-message-what"></span>
+											<span class="qa-message-when">
+												<span class="qa-message-when-data">Dec 6, 2015</span>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="qa-message-content">
+								<ul>
+									<li>Closing Ceremony</li>
+									<li>Participants depart to their home</li>
+							</div>
+					</div></div>		
+				</div>
+			</div>
 	    </div>
 
 	  </div>
@@ -588,6 +563,8 @@
 
 	
 		<!-- SLIDES END -->
+
+
 		<script>
 			// For Demo purposes only (show hover effect on mobile devices)
 			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
@@ -603,5 +580,7 @@
 			    })
 			});
 		</script>
+
+
 </body>
 </html>
