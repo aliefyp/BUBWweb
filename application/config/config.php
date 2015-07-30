@@ -17,14 +17,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-<<<<<<< HEAD
-$config['base_url'] = 'http://localhost:8080/bubw/index.php';
-$config['site_url'] = 'http://localhost:8080/bubw';
+// HEAD
+$config['base_url'] = 'http://localhost/bubwweb';
+$config['site_url'] = 'http://localhost/bubwweb';
 
-=======
-$config['base_url'] = 'http://localhost:8080/bubw';
-$config['site_url'] = 'http://localhost/BUBWweb';
->>>>>>> origin/master
+//=======
+//$config['base_url'] = 'http://localhost/bubw';
+//$config['site_url'] = 'http://localhost/BUBWweb';
+// origin/master
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -35,7 +35,7 @@ $config['site_url'] = 'http://localhost/BUBWweb';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ $config['index_page'] = 'index.php';
 |
 | WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
 */
-$config['uri_protocol']	= 'REQUEST_URI';
+$config['uri_protocol']	= 'AUTO';
 
 /*
 |--------------------------------------------------------------------------

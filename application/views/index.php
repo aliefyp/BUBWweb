@@ -511,9 +511,9 @@
 		<div class="container" style="text-align:center">
 			<h1 style="color:#fff">Registration</h1>
 			<p class="quotes" style="text-align:center; color:#fff">Register yourself for the greatest experience among the best from generation around the world! Click the Register button, and then fill the requested form.</p>	
-<<<<<<< HEAD
-			<a  href="<?php echo base_url();?>welcome/register" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; min-width:30%; width:auto;" role="button" target="_blank">REGISTER NOW!</a>
-=======
+
+			<a  href="<?php echo base_url('');?>welcome/register" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; min-width:30%; width:auto;" role="button" target="_blank">REGISTER NOW!</a>
+
 			<button data-toggle="modal" data-target="#myModal" class="btn btn-info btn-lg morenews" style="backgound-color:transparent; text-align:center; width:30%" area-hidden="true" >REGISTER NOW! </button>
 			
 			<!-- I got these buttons from simplesharebuttons.com -->
