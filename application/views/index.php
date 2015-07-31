@@ -85,7 +85,7 @@
 	      <div class="row">
 	        <div class="col-md-6 col-sm-12" style="text-align:center">
 	          <!-- <iframe width="500" height="260" src="https://www.youtube.com/embed/xkDDESlO5dM" frameborder="0" allowfullscreen></iframe>-->
-	          <embed width="500" height="260" src="https://www.youtube.com/embed/xkDDESlO5dM">
+	          <embed width="500" height="260" src="https://www.youtube.com/embed/xkDDESlO5dM?autoplay=1">
 	          <img src="assets/img/shadow.png" alt="Responsive image" class="img-responsive shadow ">
 	        </div>
 	        <div class="col-md-6 col-sm-12">
