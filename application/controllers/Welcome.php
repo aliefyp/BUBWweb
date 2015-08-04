@@ -20,4 +20,9 @@ class Welcome extends CI_Controller {
 		$data['title'] = 'Register | BUBW Indonesia';
 		$this->load->view('register',$data);
 	}
+
+	public function indonesia_desc() {
+		$data['title'] = 'Yogyakarta and Indonesia at a Glance | BUBW Indonesia';
+		$this->load->view('indonesia_desc',$data);
+	}
 }
