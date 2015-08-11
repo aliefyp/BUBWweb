@@ -61,7 +61,7 @@
 	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	                <ul class="nav navbar-nav pull-right">
 	                    <li>
-	                        <a href="www.bubwindonesia.com" title="Home">Back to main page</a>
+	                        <a href="http://bubwindonesia.com" title="Home">Back to main page</a>
 	                    </li>
 	                </ul>
 	            </div>
